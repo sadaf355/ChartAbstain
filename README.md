@@ -7,10 +7,8 @@ Built for the AutoScientist Challenge (Entry A). The pipeline is: synthetic data
 Adaption data adaptation, an **audit of the adapted data against the answer key**, a repaired dataset, and
 LoRA fine-tuning of `Qwen/Qwen3-4B-Base` with AutoScientist.
 
-- Live demo (pre-computed outputs): `<HF Space link>`
-- Weights (LoRA adapters): `<HF model link>`
-- Dataset: `<HF dataset link>`
-
+- Live demo (pre-computed outputs): `<[HF Space link](https://huggingface.co/spaces/Sakshikale235/chartqa-abstain-demo)>`
+  
 ## The task
 
 Charts are given as text (type, title, unit, y-axis start, one row of values per series). Every reply has three lines:
