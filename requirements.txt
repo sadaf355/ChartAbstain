@@ -1,0 +1,7 @@
+# Data generation, scoring and audit use only the standard library.
+# Inference on a GPU (scripts/predict_local.py):
+torch
+transformers>=4.51
+peft
+accelerate
+bitsandbytes

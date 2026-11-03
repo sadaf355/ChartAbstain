@@ -1,0 +1,11 @@
+adapters/*
+!adapters/README.md
+!adapters/.gitkeep
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+*.safetensors
+*.bin
+*.tgz
+.env
