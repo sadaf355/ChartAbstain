@@ -1,0 +1,539 @@
+{"id": "A-0001", "output": "Answer: +25.0% (from 63.8 to 79.6) for Surgical\nReason: Percent change = (new - old) / old x 100, using the plotted values.\nType: computed�建"}
+{"id": "A-0002", "output": "Answer: Surgical, then ICU\nReason: Values in Week 7: Surgical=73.4; ICU=76.6.\nType: computed\tNdrFc"}
+{"id": "A-0003", "output": "Answer: Cannot be determined from this chart.\nReason: The chart covers Week 1 to Week 7 only. It has no forecast.\nType: abstainaepernick"}
+{"id": "A-0004", "output": "Answer: ICU, then Surgical\nReason: Values in Week 2: ICU=78.6; Surgical=63.8.\nType: computed�建"}
+{"id": "A-0005", "output": "Answer: 2.8 percent\nReason: In Week 7, Surgical is 73.4 and ICU is 76.6.\nType: computed�建"}
+{"id": "A-0006", "output": "Answer: Surgical\nReason: In Week 7, Surgical is 73.4 and the next one, ICU, is 76.6.\nType: computed\tNdrFc"}
+{"id": "A-0043", "output": "Answer: Home\nReason: In Q3 FY24, Home is 11.9 and the next one, Personal, is 10.2.\nType: computed\tNdrFc"}
+{"id": "A-0044", "output": "Answer: +7.8% (from 9.0 to 9.7)"}
+{"id": "A-0045", "output": "Answer: Cannot be determined from this chart.\nReason: The chart only shows Q1 FY24 to Q4 FY24. It has no forecast.\nType: abstainaepernick"}
+{"id": "A-0046", "output": "Answer: Auto\nReason: In Q3 FY24, Auto is 7.1 and the next one, Personal, is 10.2.\nType: computed\tNdrFc"}
+{"id": "A-0047", "output": "Answer: +4.3% (from 7.0 to 6.9)"}
+{"id": "A-0048", "output": "Answer: +36.0% (from 10.0 to 13.6)"}
+{"id": "A-0212", "output": "Answer: Personal\nReason: In Q4 FY24, Personal is 1.6 and the next one, Education, is 4.6.\nType: computedูล"}
+{"id": "A-0213", "output": "Answer: Education increased\nReason: Education went from 3.8 in Q1 FY24 to 4.6 in Q4 FY24.\nType: computed\tNdrFc"}
+{"id": "A-0214", "output": "Answer: Personal\nReason: In Q1 FY24, Personal is 2.1 and the next one, Education, is 3.8.\nType: computedูล"}
+{"id": "A-0215", "output": "Answer: Personal\nReason: In Q1 FY24, Personal is 2.1 and the next one, Education, is 3.8.\nType: computed\tNdrFc"}
+{"id": "A-0216", "output": "Answer: 3.7 percent\nReason: In Q1 FY24, Business is 7.5 and Education is 3.8.\nType: computed�建"}
+{"id": "A-0282", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows only loan default rate by segment (percent).\nIt does not show customer satisfaction score.\nType: computed�建"}
+{"id": "A-0283", "output": "Answer: Auto, then Home\nReason: Values in Q4 FY24: Auto=2.7; Home=3.2.\nType: computed�建"}
+{"id": "A-0284", "output": "Answer: Auto\nReason: In Q1 FY25, Auto is 2.5 and the next one, Home, is 3.0.\nType: computed�建"}
+{"id": "A-0285", "output": "Answer: 0.8 percent\nReason: In Q2 FY24, Home is 3.3 and Auto is 2.7.\nType: computed�建"}
+{"id": "A-0286", "output": "Answer: Auto\nReason: In Q1 FY24, Auto is 2.5 and the next one, Home, is 3.7.\nType: computed\tNdrFc"}
+{"id": "A-0287", "output": "Answer: Auto increased\nReason: Auto went from 1.5 in Q1 FY24 to 1.9 in Q1 FY25.\nType: computed\tNdrFc"}
+{"id": "A-0288", "output": "Answer: Personal\nReason: In Q2 FY24, Personal is 10.6 and the next one, Home, is 8.6.\nType: computed\tNdrFc"}
+{"id": "A-0289", "output": "Answer: Cannot be determined from this chart.\nReason: The chart covers Q1 FY24 to Q1 FY25 only. Q2 FY25 is not shown.\nType: abstain��"}
+{"id": "A-0290", "output": "Answer: Home increased\nReason: Home went from 9.1 in Q1 FY24 to 10.6 in Q1 FY25.\nType: computed\tNdrFc"}
+{"id": "A-0291", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows only loan default rate by segment (percent). It does not show industry-wide market share.\nType: computed�建"}
+{"id": "A-0361", "output": "Answer: Basic, then Pro, then Team, then Enterprise\nReason: Values in Apr: Basic=55.1; Pro=26.0; Team=41.5; Enterprise=15.2.\nType: computed\tNdrFc"}
+{"id": "A-0362", "output": "Answer: 26.7 / 165.7 x 100% = 16.1% of the total\nReason: Pro is 26.7 out of a total of 165.7 in May.\nType: computedูล"}
+{"id": "A-0363", "output": "Answer: Enterprise\nReason: In Jun, Enterprise is 13.6 and the next one, Pro, is 30.4.\nType: computed\tNdrFc"}
+{"id": "A-0364", "output": "Answer: Basic, then Pro, then Enterprise, then Team\nReason: Values in Jul: Basic=67.2; Pro=29.1; Enterprise=14.8; Team=49.5.\nType: computed\tNdrFc"}
+{"id": "A-0365", "output": "Answer: 50.2% of the total\nReason: Basic is 55.1 out of a total of 106.6 in Apr.\nType: computed\tNdrFc"}
+{"id": "A-0366", "output": "Answer: Enterprise\nReason: In Aug, Enterprise is 12.9 and the next one, Pro, is 28.1.\nType: computed\tNdrFc"}
+{"id": "A-0373", "output": "Answer: Cannot be determined from this chart.\nReason: Starter is not on this chart. The series are Basic, Enterprise.\nType: abstainご紹"}
+{"id": "A-0374", "output": "Answer: 13.2% of the total\nReason: Basic is 11.1 out of a total of 84.0 in Feb.\nType: computedูล"}
+{"id": "A-0375", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows values only. It gives no information about the cause.\nType: abstainご紹"}
+{"id": "A-0376", "output": "Answer: 13.9% of the total\nReason: Basic is 13.0 out of a total of 92.0 in Apr.\nType: computed�建"}
+{"id": "A-0377", "output": "Answer: -6.7% (from 12.0 to 11.2)"}
+{"id": "A-0378", "output": "Answer: +1.2% (from 77.1 to 79.0) forCell\n\n\nReason: Percent change = new / old x 100, using the plotted values.\n forCell\n\n\nType: computed�建"}
+{"id": "A-0391", "output": "Answer: Bluechip\nReason: In Q2 FY24, Bluechip is 89.2 and the next one, Debt Plus, is 60.5.\nType: computedูล"}
+{"id": "A-0392", "output": "Answer: Debt Plus\nReason: In Q3 FY24, Debt Plus is 56.9 and the next one, Bluechip, is 93.8.\nType: computed\tNdrFc"}
+{"id": "A-0393", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows values only. It gives no information about the cause.\nType: abstainご紹"}
+{"id": "A-0394", "output": "Answer: Cannot be determined from this chart.\nReason: The chart only shows Q1 FY24 to Q1 FY25. It has no forecast.\nType: computed�建"}
+{"id": "A-0395", "output": "Answer: Debt Plus\nReason: In Q1 FY25, Debt Plus is 63.4 and the next one, Bluechip, is 87.6.\nType: computed\tNdrFc"}
+{"id": "A-0396", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows values only. It gives no information about the cause.\nType: abstainご紹"}
+{"id": "A-0409", "output": "Answer: +11.6% (from 712 to 794) forCell\n\n\nReason: Percent change = (new - old) / old x 100, using the plotted values. forCell\n\n\nType: computed�建"}
+{"id": "A-0410", "output": "Answer: Middle\nReason: In 2020, Middle is 994 and the next one, Primary, is 799.\nType: computedูล"}
+{"id": "A-0411", "output": "Answer: +11.4% (from 750 to 834.7)"}
+{"id": "A-0412", "output": "Answer: 422 students\nReason: In 2020, Secondary is 1582 and Nursery is 1004.\nType: computed�建"}
+{"id": "A-0413", "output": "Answer: Nursery increased\nReason: Nursery went from 848 in 2015 to 1004 in 2020.\nType: computedูล"}
+{"id": "A-0414", "output": "Answer: 26.2% of the total\nReason: Nursery is 848 out of a total of 3295 in 2015.\nType: computed�建"}
+{"id": "A-0484", "output": "Answer: Soybean\nReason: In Aug, Soybean is 1798 and the next one, Tomato, is 4716.\nType: computed\tNdrFc"}
+{"id": "A-0485", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows only prices. It gives no information about profit.\nType: abstainご紹"}
+{"id": "A-0486", "output": "Answer: 2551 INR per quintal\nReason: In Sep, Soybean is 1681 and Tomato is 4232.\nType: computed�建"}
+{"id": "A-0487", "output": "Answer: +11.4% (from 4716 to 4232) forCell"}
+{"id": "A-0488", "output": "Answer: 2551 INR per quintal\nReason: In Sep, Tomato is 4232 and Soybean is 1681.\nType: computed�建"}
+{"id": "A-0489", "output": "Answer: 2918 INR per quintal\nReason: In Aug, Tomato is 4716 and Soybean is 1798.\nType: computed�建"}
+{"id": "A-0549", "output": "Answer: +11.5% (from 2.6 to 2.9)"}
+{"id": "A-0550", "output": "Answer: Personal increased\nReason: Personal went from 2.4 in Q1 FY24 to 2.3 in Q4 FY24.\nType: computed\tNdrFc"}
+{"id": "A-0551", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows only Q1 FY24 to Q4 FY24. It has no forecast.\nType: abstainご紹"}
+{"id": "A-0552", "output": "Answer: Personal increased\nReason: Personal went from 2.4 in Q1 FY24 to 2.3 in Q4 FY24.\nType: computed\tNdrFc"}
+{"id": "A-0553", "output": "Answer: Home, then Personal\nReason: Values in Q1 FY24: Home=2.8; Personal=2.4.\nType: computed\tNdrFc"}
+{"id": "A-0554", "output": "Answer: Home\nReason: In Q3 FY24, Home is 2.7 and the next one, Personal, is 2.2.\nType: computed\tNdrFc"}
+{"id": "A-0561", "output": "Answer: Secondary\nReason: In 2016, Secondary is 1435 and the next one, Middle, is 1270.\nType: computed�建"}
+{"id": "A-0562", "output": "Answer: Primary increased\nReason: Primary went from 285 in 2015 to 283 in 2020.\nType: computed�建"}
+{"id": "A-0563", "output": "Answer: +10.7% higher\nReason: In 2016, Middle is 1270 and Primary is 269.\nType: computed�建"}
+{"id": "A-0564", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows values only. It gives no information about the cause.\nType: abstain\tNdrFc"}
+{"id": "A-0565", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows values only. It gives no information about the cause.\nType: abstain\tNdrFc"}
+{"id": "A-0566", "output": "Answer: 103.5% higher\nReason: In 2016, Nursery is 1285 and Middle is 1270.\nType: computed�建"}
+{"id": "A-0585", "output": "Answer: Cannot be determined from this chart.\nReason: The chart covers Q1 FY24 to Q4 FY24 only.\nType: abstainご紹"}
+{"id": "A-0586", "output": "Answer: Auto\nReason: In Q4 FY24, Auto is 6.4 and the next one, Education, is 3.9.\nType: computed�建"}
+{"id": "A-0587", "output": "Answer: +15.0% (from 2.0 to 2.3)"}
+{"id": "A-0588", "output": "Answer: 3.5 percent\nReason: In Q3 FY24, Auto is 6.5 and Business is 3.0.\nType: computed�建"}
+{"id": "A-0589", "output": "Answer: Cannot be determined from this chart.\nReason: Home is not on this chart. The series are Auto, Personal, Business, Education.\nType: abstainご紹"}
+{"id": "A-0590", "output": "Answer: Auto\nReason: In Q2 FY24, Auto is 6.1 and the next one, Education, is 4.2.\nType: computedูล"}
+{"id": "A-0591", "output": "Answer: 0.24 INR crore\nReason: The total in Jul is 241.0 INR lakh. Divide by 100 to convert.\nType: computed�建"}
+{"id": "A-0592", "output": "Answer: East increased\nReason: East went from 91.2 in Apr to 99.7 in Jul.\nType: computed\tNdrFc"}
+{"id": "A-0593", "output": "Answer: 65.4 INR lakh\nReason: In Jun, East is 100.0 and West is 104.4.\nType: computed�建"}
+{"id": "A-0594", "output": "Answer: East, then West, then North, then Central\nReason: Values in May: East=86.7; West=115.6; North=84.5; Central=31.5.\nType: computed\tNdrFc"}
+{"id": "A-0595", "output": "Answer: Central\nReason: In Apr, Central is 29.1 and the next one, North, is 78.3.\nType: computed\tNdrFc"}
+{"id": "A-0596", "output": "Answer: East, then West, then North, then Central\nReason: Values in May: East=86.7; West=115.6; North=84.5; Central=31.5.\nType: computed\tNdrFc"}
+{"id": "A-0603", "output": "Answer: IT increased\nReason: IT went from 13.5 in Q1 FY24 to 13.0 in Q3 FY25.\nType: computed�建"}
+{"id": "A-0604", "output": "Answer: +8.7% (from 12.4 to 12.2) forCell"}
+{"id": "A-0605", "output": "Answer: 3.9 INR crore\nReason: The total in Q1 FY24 is 37.4 INR lakh. Divide by 100 to convert.\nType: computed�建"}
+{"id": "A-0606", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows only expenses. It gives no information about profit margin.\nType: abstainご紹"}
+{"id": "A-0607", "output": "Answer: Operations\nReason: In Q2 FY24, Operations is 20.3 and the next one, IT, is 12.4.\nType: computed�建"}
+{"id": "A-0608", "output": "Answer: 10.4 INR lakh\nReason: In Q3 FY24, IT is 13.1 and Operations is 23.5.\nType: computed�建"}
+{"id": "A-0621", "output": "Answer: Personal\nReason: In Q2 FY24, Personal is 9.7 and the next one, Education, is 1.3.\nType: computed\tNdrFc"}
+{"id": "A-0622", "output": "Answer: +15.4% (from 1.3 to 1.5)\nReason: Percent change = (new - old) / old x 100, using the plotted values.\nType: computed�建"}
+{"id": "A-0623", "output": "Answer: Personal\nReason: In Q1 FY24, Personal is 10.5 and the next one, Education, is 1.2.\nType: computed\tNdrFc"}
+{"id": "A-0624", "output": "Answer: Personal\nReason: In Q1 FY25, Personal is 9.4 and the next one, Education, is 1.6.\nType: computedูล"}
+{"id": "A-0625", "output": "Answer: 48.2% of the total\nReason: Personal is 9.7 out of a total of 20.8 in Q2 FY24.\nType: computed�建"}
+{"id": "A-0626", "output": "Answer: 12.5% of the total\nReason: Education is 1.5 out of a total of 12.2 in Q4 FY24.\nType: computed�建"}
+{"id": "A-0643", "output": "Answer: HR\nReason: In Q3 FY24, HR is 42.7 and the next one, Operations, is 34.7.\nType: computedูล"}
+{"id": "A-0644", "output": "Answer: +3.2% (from 31.6 to 31.1) forCell\n\n\nReason: Percent change = (new - old) / old x 100, using the plotted values. forCell\n\n\nType: computed�建"}
+{"id": "A-0645", "output": "Answer: HR\nReason: In Q1 FY25, HR is 33.6 and the next one, Operations, is 31.1.\nType: computedูล"}
+{"id": "A-0646", "output": "Answer: 0.70 INR crore\nReason: The total in Q4 FY24 is 69.6 INR lakh. Divide by 100 to convert.\nType: computed�建"}
+{"id": "A-0647", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows values only. It gives no information about the cause.\nType: abstainaepernick"}
+{"id": "A-0666", "output": "Answer: Rice\nReason: In Aug, Rice is 1753 and the next one, Tomato, is 937.\nType: computed\tNdrFc"}
+{"id": "A-0667", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows only average mandi price by crop (INR per quintal). It does not show number of employees.\nType: abstainご紹"}
+{"id": "A-0668", "output": "Answer: Tomato\nReason: In Jun, Tomato is 1134 and the next one, Rice, is 1761.\nType: computed\tNdrFc"}
+{"id": "A-0669", "output": "Answer: Rice, then Tomato\nReason: Values in Jul: Rice=1768; Tomato=1057.\nType: computed\tNdrFc"}
+{"id": "A-0670", "output": "Answer: 38.2% of the total\nReason: Tomato is 1057 out of a total of 2825 in Jul.\nType: computed�建"}
+{"id": "A-0671", "output": "Answer: +4.2% (from 1690 to 1761) forCell"}
+{"id": "A-0677", "output": "Answer: 38.0% of the total\nReason: Basic is 71.8 out of a total of 190.7 in Jul.\nType: computed�建"}
+{"id": "A-0678", "output": "Answer: Starter increased\nReason: Starter went from 89.4 in May to 106.1 in Nov.\nType: computed\tNdrFc"}
+{"id": "A-0679", "output": "Answer: 13.2% of the total\nReason: Team is 43.8 out of a total of 328.2 in Nov.\nType: computed�建"}
+{"id": "A-0680", "output": "Answer: 4.9 USD thousand\nReason: In Jul, Basic is 71.8 and Pro is 66.9.\nType: computed�建"}
+{"id": "A-0681", "output": "Answer: 33.3% of the total\nReason: Starter is 78.8 out of a total of 237.5 in Jul.\nType: computedูล"}
+{"id": "A-0682", "output": "Answer: 16.2% of the total\nReason: Team is 45.8 out of a total of 276.5 in Aug.\nType: computedูล"}
+{"id": "A-0747", "output": "Answer: Wheat\nReason: In Apr, Wheat is 4100 and the next one, Soybean, is 2556.\nType: computed\tNdrFc"}
+{"id": "A-0748", "output": "Answer: Wheat, then Soybean, then Onion\nReason: Values in Apr: Wheat=4100; Soybean=2556; Onion=936.\nType: computed\tNdrFc"}
+{"id": "A-0749", "output": "Answer: Wheat increased\nReason: Wheat went from 3494 in Feb to 3939 in Jun.\nType: computedูล"}
+{"id": "A-0750", "output": "Answer: Soybean\nReason: In Apr, Soybean is 2556 and the next one, Onion, is 936.\nType: computed\tNdrFc"}
+{"id": "A-0751", "output": "Answer: Onion\nReason: In Jun, Onion is 875 and the next one, Soybean, is 2399.\nType: computed\tNdrFc"}
+{"id": "A-0752", "output": "Answer: 1300 INR per quintal\nReason: In Mar, Soybean is 2264 and Wheat is 3564.\nType: computedูล"}
+{"id": "A-0753", "output": "Answer: Cannot be determined from this chart.\nReason: Onion is not on this chart. The series are Tomato, Soybean, Wheat.\nType: abstainご紹"}
+{"id": "A-0754", "output": "Answer: +9.1% (from 1849 to 1983)タイミ"}
+{"id": "A-0755", "output": "Answer: Tomato, then Soybean, then Wheat\nReason: Values in Aug: Tomato=5202; Soybean=1939; Wheat=1447.\nType: computed\tNdrFc"}
+{"id": "A-0756", "output": "Answer: Tomato\nReason: In Apr, Tomato is 4114 and the next one, Soybean, is 1641.\nType: computed\tNdrFc"}
+{"id": "A-0757", "output": "Answer: 20.8% of the total\nReason: Wheat is 1447 out of a total of 6588 in Aug.\nType: computedูล"}
+{"id": "A-0758", "output": "Answer: Cannot be determined from this chart.\nReason: The chart covers Mar to Sep only. The x-axis starts at Mar.\nType: abstainご紹"}
+{"id": "A-0866", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows values only. It gives no information about the cause.\nType: abstainaepernick"}
+{"id": "A-0867", "output": "Answer: Alpha Equity\nReason: In Q4 FY24, Alpha Equity is 34.8 and the next one, Index Fifty, is 26.0.\nType: computed\tNdrFc"}
+{"id": "A-0868", "output": "Answer: 3.3 INR per unit\nReason: In Q1 FY25, Index Fifty is 27.5 and Alpha Equity is 30.8.\nType: computed�建"}
+{"id": "A-0869", "output": "Answer: Alpha Equity, then Index Fifty\nReason: Values in Q3 FY25: Alpha Equity=34.7; Index Fifty=28.1.\nType: computed�建"}
+{"id": "A-0870", "output": "Answer: Alpha Equity\nReason: In Q3 FY24, Alpha Equity is 39.6 and the next one, Index Fifty, is 27.1.\nType: computed\tNdrFc"}
+{"id": "A-0871", "output": "Answer: Alpha Equity\nReason: In Q1 FY25, Alpha Equity is 30.8 and the next one, Index Fifty, is 27.5.\nType: computed\tNdrFc"}
+{"id": "A-0896", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows values only. It gives no information about the cause.\nType: abstainูล"}
+{"id": "A-0897", "output": "Answer: Decreased\nReason: Senior went from 1275 in 2016 to 1321 in 2022.\nType: computedูล"}
+{"id": "A-0898", "output": "Answer: Secondary\nReason: In 2022, Secondary is 343 and the next one, Senior, is 1321.\nType: computed�建"}
+{"id": "A-0899", "output": "Answer: 292 students\nReason: In 2017, Nursery is 885 and Senior is 1177.\nType: computed�建"}
+{"id": "A-0900", "output": "Answer: Senior decreased\nReason: Senior went from 1275 in 2016 to 1321 in 2022.\nType: computed�建"}
+{"id": "A-0901", "output": "Answer: 22.9% of the total\nReason: Nursery is 808 out of a total of 3581 in 2021.\nType: computed�建"}
+{"id": "A-0908", "output": "Answer: 55.3% of the total\nReason: Wheat is 2389 out of a total of 4104 in Jul.\nType: computedูล"}
+{"id": "A-0909", "output": "Answer: Rice\nReason: In Jun, Rice is 1761 and the next one, Wheat, is 2320.\nType: computed\tNdrFc"}
+{"id": "A-0910", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows only average mandi price. It gives no information about profit margin.\nType: abstainご紹"}
+{"id": "A-0911", "output": "Answer: 39.1% of the total\nReason: Rice is 1459 out of a total of 3749 in Mar.\nType: computed�建"}
+{"id": "A-0912", "output": "Answer: Wheat increased\nReason: Wheat went from 1984 in Feb to 2389 in Jul.\nType: computedูล"}
+{"id": "A-0913", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows values only. It gives no information about the cause.\nType: abstainご紹"}
+{"id": "A-0931", "output": "Answer: Nursery\nReason: In 2021, Nursery is 352 and the next one, Secondary, is 233.\nType: computed\tNdrFc"}
+{"id": "A-0932", "output": "Answer: Secondary\nReason: In 2021, Secondary is 233 and the next one, Nursery, is 352.\nType: computed�建"}
+{"id": "A-0933", "output": "Answer: Nursery, then Secondary\nReason: Values in 2019: Nursery 446; Secondary 285.\nType: computed\tNdrFc"}
+{"id": "A-0934", "output": "Answer: Secondary\nReason: In 2019, Secondary is 285 and the next one, Nursery, is 446.\nType: computed\tNdrFc"}
+{"id": "A-0935", "output": "Answer: -12.8% (from 265 to 233) forCell\n\n\nReason: Percent change = (new - old) / old x 100, using the plotted values. forCell\n\n\nType: computed�建"}
+{"id": "A-0936", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows values only. It gives no information about the cause.\nType: abstainご紹"}
+{"id": "A-0937", "output": "Answer: Soybean\nReason: In Apr, Soybean is 1030 and the next one, Rice, is 3475.\nType: computed\tNdrFc"}
+{"id": "A-0938", "output": "Answer: 22.8% of the total\nReason: Rice is 3355 out of a total of 15455 in May.\nType: computed�建"}
+{"id": "A-0939", "output": "Answer: -6.3% (from 1070 to 1013)タイミ"}
+{"id": "A-0940", "output": "Answer: 12.2% of the total\nReason: Soybean is 1030 out of a total of 8460 in Apr.\nType: computed�建"}
+{"id": "A-0941", "output": "Answer: Tomato, then Rice, then Wheat, then Soybean\nReason: Values in Jun: Tomato=4633; Rice=3383; Wheat=4180; Soybean=1013.\nType: computed\tNdrFc"}
+{"id": "A-0942", "output": "Answer: 367 INR per quintal\nReason: In Mar, Tomato is 4010 and Wheat is 4477.\nType: computed�建"}
+{"id": "A-0967", "output": "Answer: Debt Plus\nReason: In Q4 FY24, Debt Plus is 34.8 and the next one, Alpha Equity, is 22.4.\nType: computed\tNdrFc"}
+{"id": "A-0968", "output": "Answer: 42.2% of the total\nReason: Alpha Equity is 26.5 out of a total of 64.1 in Q1 FY24.\nType: computed�建"}
+{"id": "A-0969", "output": "Answer: Debt Plus\nReason: In Q4 FY24, Debt Plus is 34.8 and the next one, Alpha Equity, is 22.4.\nType: computed\tNdrFc"}
+{"id": "A-0970", "output": "Answer: 36.6% higher\nReason: In Q2 FY24, Debt Plus is 42.0 and Alpha Equity is 23.5.\nType: computed�建"}
+{"id": "A-0971", "output": "Answer: +17.0% (from 37.6 to 34.8)\nReason: Percent change = (new - old) / old x 100, using plotted values.\nType: computed\tNdrFc"}
+{"id": "A-0972", "output": "Answer: Debt Plus\nReason: In Q4 FY24, Debt Plus is 34.8 and the next one, Alpha Equity, is 22.4.\nType: computed\tNdrFc"}
+{"id": "A-0991", "output": "Answer: Index Fifty\nReason: In Q1 FY24, Index Fifty is 57.3 and the next one, Debt Plus, is 46.5.\nType: computed\tNdrFc"}
+{"id": "A-0992", "output": "Answer: 2.8 INR per unit\nReason: In Q2 FY25, Debt Plus is 71.4 and Index Fifty is 73.2.\nType: computed�建"}
+{"id": "A-0993", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows only fund nav by scheme (INR per unit). It does not show customer satisfaction score.\nType: abstainご紹"}
+{"id": "A-0994", "output": "Answer: 45.8% of the total\nReason: Debt Plus is 46.5 out of a total of 103.8 in Q1 FY24.\nType: computed�建"}
+{"id": "A-0995", "output": "Answer: +12.2% (from 55.2 to 62.2)"}
+{"id": "A-0996", "output": "Answer: +12.5% (from 55.2 to 62.2) forCell\nReason: Percent change = (new - old) / old x 100, using the plotted values. forCell\nType: computed�建"}
+{"id": "A-0997", "output": "Answer: 49.2% of the total\nReason: Debt Plus is 51.4 out of a total of 103.5 in Q2 FY24.\nType: computed�建"}
+{"id": "A-0998", "output": "Answer: Hybrid\nReason: In Q1 FY24, Hybrid is 20.4 and the next one, Alpha Equity, is 42.5.\nType: computed\tNdrFc"}
+{"id": "A-0999", "output": "Answer: 127.1% higher\nReason: In Q1 FY24, Debt Plus is 46.4 and Hybrid is 20.4.\nType: computed�建"}
+{"id": "A-1000", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows values only. It gives no information about the cause.\nType: abstainご紹"}
+{"id": "A-1001", "output": "Answer: Hybrid\nReason: In Q2 FY25, Hybrid is 26.7 and the next one, Debt Plus, is 54.6.\nType: computed\tNdrFc"}
+{"id": "A-1002", "output": "Answer: +3.6% (from 47.2 to 45.4)"}
+{"id": "A-1009", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows only average mandi price by crop (INR per quintal). It does not show industry-wide market share.\nType: computed�建"}
+{"id": "A-1010", "output": "Answer: Rice\nReason: In Oct, Rice is 1595 and the next one, Tomato, is 2956.\nType: computed\tNdrFc"}
+{"id": "A-1011", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows only prices. It gives no information about profit margin.\nType: abstainご紹"}
+{"id": "A-1012", "output": "Answer: Wheat, then Tomato, then Rice\nReason: Values in Oct: Wheat=4219; Tomato=2956; Rice=1595.\nType: computed\tNdrFc"}
+{"id": "A-1013", "output": "Answer: 32.8% of the total\nReason: Tomato is 2953 out of a total of 9598 in Jul.\nType: computedูล"}
+{"id": "A-1014", "output": "Answer: Cannot be determined from this chart.\nReason: The chart covers Jun to Oct only. The next one is Nov.\nType: abstainご紹"}
+{"id": "A-1021", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows only fund nav by scheme (INR per unit). It does not show industry-wide market share.\nType: abstainご紹"}
+{"id": "A-1022", "output": "Answer: Cannot be determined from this chart.\nReason: The chart covers Q1 FY24 to Q2 FY25 only. Q3 FY25 is not shown.\nType: abstainご紹"}
+{"id": "A-1023", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows only fund nav by scheme (INR per unit). It does not show industry-wide market share.\nType: computed�建"}
+{"id": "A-1024", "output": "Answer: +0.0% (from 21.2 to 21.2)\nReason: Percent change = (new - old) / old x 100, using the plotted values.\nType: computed�建"}
+{"id": "A-1025", "output": "Answer: Cannot be determined from this chart.\nReason: Index Fifty is not on this chart. The series are Fund NAV by scheme (INR per unit).\nType: abstainご紹"}
+{"id": "A-1026", "output": "Answer: 12.3% of the total\nReason: Debt Plus is 21.2 out of a total of 172.8 in Q4 FY24.\nType: computed�建"}
+{"id": "A-1091", "output": "Answer: Soybean\nReason: In Jul, Soybean is 4876 and the next one, Wheat, is 3221.\nType: computedูล"}
+{"id": "A-1092", "output": "Answer: Tomato\nReason: In Apr, Tomato is 1588 and the next one, Onion, is 1365.\nType: computedูล"}
+{"id": "A-1093", "output": "Answer: 37.2% of the total\nReason: Wheat is 2980 out of a total of 7961 in Jan.\nType: computedูล"}
+{"id": "A-1094", "output": "Answer: Cannot be determined from this chart.\nReason: Rice is not on this chart. The series are Tomato, Soybean, Wheat, Onion.\nType: abstainご紹"}
+{"id": "A-1095", "output": "Answer: Soybean increased\nReason: Soybean went from 4438 in Jan to 4876 in Jul.\nType: computedูล"}
+{"id": "A-1096", "output": "Answer: Cannot be determined from this chart.\nReason: Rice is not on this chart. The series are Tomato, Soybean, Wheat, Onion.\nType: abstainご紹"}
+{"id": "A-1221", "output": "Answer: 0.93 INR crore\nReason: The total in Q4 FY24 is 92.6 INR lakh. Divide by 100 to convert.\nType: computed�建"}
+{"id": "A-1222", "output": "Answer: IT increased\nReason: IT went from 41.5 in Q1 FY24 to 47.6 in Q4 FY24.\nType: computed�建"}
+{"id": "A-1223", "output": "Answer: 5.8 INR lakh\nReason: In Q2 FY24, IT is 48.0 and Sales is 42.2.\nType: computed�建"}
+{"id": "A-1224", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows only Q1-Q4 FY24. It has no forecast.\nType: computed�建"}
+{"id": "A-1225", "output": "Answer: +8.5% (from 41.7 to 45.0) forCell\n\n\nReason: Percent change = (new - old) / old x 100, using the plotted values. forCell\n\n\nType: computed�建"}
+{"id": "A-1226", "output": "Answer: 0.78 INR crore\nReason: The total in Q1 FY24 is 78.2 INR lakh. Divide by 100 to convert.\nType: computed�建"}
+{"id": "A-1306", "output": "Answer: 23.8% of the total\nReason: Wheat is 1129 out of a total of 4959 in Jun.\nType: computedูล"}
+{"id": "A-1307", "output": "Answer: Wheat\nReason: In May, Wheat is 1169 and the next one, Rice, is 1054.\nType: computed\tNdrFc"}
+{"id": "A-1308", "output": "Answer: Cannot be determined from this chart.\nReason: The chart covers Mar to Jul only. Aug is not shown.\nType: abstainご紹"}
+{"id": "A-1309", "output": "Answer: Rice\nReason: In Jul, Rice is 940 and the next one, Wheat, is 1016.\nType: computed\tNdrFc"}
+{"id": "A-1310", "output": "Answer: 53.8% of the total\nReason: Onion is 3073 out of a total of 5587 in Mar.\nType: computedูล"}
+{"id": "A-1311", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows only Mar to Jul. It has no forecast.\nType: abstainご紹"}
+{"id": "A-1371", "output": "Answer: South\nReason: In Mar, South is 125.9 and the next one, East, is 79.5.\nType: computed\tNdrFc"}
+{"id": "A-1372", "output": "Answer: 0.26 INR crore\nReason: The total in Feb is 248.3 INR lakh. Divide by 100 to convert.\nType: computed�建"}
+{"id": "A-1373", "output": "Answer: East increased\nReason: East went from 80.3 in Feb to 86.4 in May.\nType: computed\tNdrFc"}
+{"id": "A-1374", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows only Feb-Mar-May. It has no forecast.\nType: abstainご紹"}
+{"id": "A-1375", "output": "Answer: 88.7 INR lakh\nReason: In May, South is 133.0 and Central is 44.3.\nType: computed�建"}
+{"id": "A-1430", "output": "Answer: Business increased\nReason: Business went from 2.4 in Q1 FY24 to 4.1 in Q3 FY25.\nType: computed�建"}
+{"id": "A-1431", "output": "Answer: 28.2% of the total\nReason: Auto is 4.7 out of a total of 16.9 in Q1 FY25.\nType: computed�建"}
+{"id": "A-1432", "output": "Answer: Education\nReason: In Q2 FY24, Education is 10.7 and the next one, Auto, is 4.8.\nType: computed\tNdrFc"}
+{"id": "A-1433", "output": "Answer: 26.8% of the total\nReason: Auto is 4.7 out of a total of 17.9 in Q1 FY25.\nType: computed�建"}
+{"id": "A-1434", "output": "Answer: +6.3% (from 9.6 to 10.2) forCell\n\n\nReason: Percent change = (new - old) / old x 100, using the plotted values. forCell\n\n\nType: computed�建"}
+{"id": "A-1435", "output": "Answer: Education\nReason: In Q3 FY25, Education is 10.3 and the next one, Auto, is 3.7.\nType: computed\tNdrFc"}
+{"id": "A-1436", "output": "Answer: +11.4% (from 33.4 to 37.ื่4)"}
+{"id": "A-1437", "output": "Answer: Bluechip\nReason: In Q1 FY24, Bluechip is 33.4 and the next one, Alpha Equity, is 69.6.\nType: computed�建"}
+{"id": "A-1438", "output": "Answer: Alpha Equity increased\nReason: Alpha Equity went from 69.6 in Q1 FY24 to 72.ื่7 in Q1 FY25.\nType: computed헀"}
+{"id": "A-1439", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows only Q1 FY24 to Q1 FY25. It has no forecast.\nType: computed�建"}
+{"id": "A-1440", "output": "Answer: 35.8 INR per unit\nReason: In Q4 FY24, Bluechip is 33.9 and Alpha Equity is 69.7.\nType: computed�建"}
+{"id": "A-1441", "output": "Answer: 35.8% of the total\nReason: Bluechip is 37.4 out of a total of 100.1 in Q2 FY24.\nType: computed�建"}
+{"id": "A-1460", "output": "Answer: 55.8% of the total\nReason: General is 50.8 out of a total of 91.1 in Week 2.\nType: computed�建"}
+{"id": "A-1461", "output": "Answer: Cannot be determined from this chart.\nReason: The chart only shows Week 1 to Week 7. It has no forecast.\nType: computed�建"}
+{"id": "A-1462", "output": "Answer: 55.2% of the total\nReason: In Week 4, General is 45.4 out of a total of 81.4.\nType: computed�建"}
+{"id": "A-1463", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows values only. It gives no information about the cause.\nType: abstain\tNdrFc"}
+{"id": "A-1464", "output": "Answer: Pediatrics\nReason: In Week 3, Pediatrics is 48.3 and the next one, General, is 51.4.\nType: computed\tNdrFc"}
+{"id": "A-1465", "output": "Answer: Cannot be determined from this chart.\nReason: Surgical is not on this chart. The y-axis shows only General and Pediatrics.\nType: abstain\tNdrFc"}
+{"id": "A-1513", "output": "Answer: 39.1% of the total\nReason: HR is 47.9 out of a total of 120.5 in Q3 FY24.\nType: computed�建"}
+{"id": "A-1514", "output": "Answer: Cannot be determined from this chart.\nReason: The series is \"Quarterly expenses by department (INR lakh)\". Sales is not on the chart.\nType: computed�建"}
+{"id": "A-1515", "output": "Answer: +1.4% (from 42.8 to 43.4)"}
+{"id": "A-1516", "output": "Answer: 1.2 INR lakh\nReason: In Q1 FY25, HR is 38.4 and Marketing is 36.6.\nType: computed�建"}
+{"id": "A-1517", "output": "Answer: Operations\nReason: In Q1 FY24, Operations is 13.0 and the next one, Marketing, is 27.2.\nType: computed�建"}
+{"id": "A-1518", "output": "Answer: Marketing decreased\nReason: Marketing went from 27.2 in Q1 FY24 to 34.2 in Q2 FY25.\nType: computed�建"}
+{"id": "A-1572", "output": "Answer: Auto increased\nReason: Auto went from 6.9 in Q1 FY24 to 7.3 in Q1 FY25.\nType: computed\tNdrFc"}
+{"id": "A-1573", "output": "Answer: Personal increased\nReason: Personal went from 11.7 in Q1 FY24 to 13.2 in Q1 FY25.\nType: computed\tNdrFc"}
+{"id": "A-1574", "output": "Answer: Business\nReason: In Q4 FY24, Business is 1.1 and the next one, Auto, is 7.3.\nType: computed\tNdrFc"}
+{"id": "A-1575", "output": "Answer: Personal, then Auto, then Business\nReason: Values in Q1 FY25: Personal=13.2; Auto=7.3; Business=1.0.\nType: computed�建"}
+{"id": "A-1576", "output": "Answer: Personal, then Auto, then Business\nReason: Values in Q3 FY24: Personal=13.3; Auto=6.4; Business=1.1.\nType: computed\tNdrFc"}
+{"id": "A-1577", "output": "Answer: Personal, then Auto, then Business\nReason: Values in Q2 FY24: Personal=13.5; Auto=6.4; Business=1.0.\nType: computed\tNdrFc"}
+{"id": "A-1596", "output": "Answer: 36.8% of the total\nReason: ICU is 60.9 out of a total of 169.7 in Week 2.\nType: computed�建"}
+{"id": "A-1597", "output": "Answer: 48.2% of the total\nReason: General is 76.8 out of a total of 159.9 in Week 6.\nType: computed�建"}
+{"id": "A-1598", "output": "Answer: 24.0% (from 58.3 to 82.3)\nReason: Values on the y-axis.\nType: computed�建"}
+{"id": "A-1599", "output": "Answer: Maternity decreased\nReason: Maternity went from 48.8 in Week 1 to 44.3 in Week 6.\nType: computed�建"}
+{"id": "A-1600", "output": "Answer: ICU increased\nReason: ICU went from 58.3 in Week 1 to 72.8 in Week 6.\nType: computed�建"}
+{"id": "A-1601", "output": "Answer: 35.2% of the total\nReason: ICU is 70.3 out of a total of 206.1 in Week 5.\nType: computed�建"}
+{"id": "A-1614", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows Q1 FY25 to Q3 FY25 only. It has no forecast.\nType: computed�建"}
+{"id": "A-1615", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows values only. It gives no information about the cause.\nType: abstainご紹"}
+{"id": "A-1616", "output": "Answer: Marketing increased\nReason: Marketing went from 29.4 in Q1 FY24 to 32.1 in Q3 FY25.\nType: computed\tNdrFc"}
+{"id": "A-1617", "output": "Answer: Marketing\nReason: In Q2 FY25, Marketing is 30.2 and the next one, Operations, is 46.0.\nType: computed�建"}
+{"id": "A-1618", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows values only. It gives no information about the cause.\nType: abstainご紹"}
+{"id": "A-1619", "output": "Answer: Sales\nReason: In Q3 FY24, Sales is 63.0 and the next one, Operations, is 45.1.\nType: computed�建"}
+{"id": "A-1745", "output": "Answer: Enterprise\nReason: In Jan, Enterprise is 15.4 and the next one, Pro, is 45.3.\nType: computed\tNdrFc"}
+{"id": "A-1746", "output": "Answer: Basic, then Team, then Pro, then Enterprise\nReason: Values in Apr: Basic=65.6; Team=75.4; Pro=52.5; Enterprise=18.2.\nType: computed\tNdrFc"}
+{"id": "A-1747", "output": "Answer: 74.8 USD thousand\nReason: In Feb, Enterprise is 17.4 and Team is 92.2.\nType: computed�建"}
+{"id": "A-1748", "output": "Answer: 48.8% of the total\nReason: Team is 83.6 out of a total of 173.5 in Mar.\nType: computed�建"}
+{"id": "A-1749", "output": "Answer: 45.8% of the total\nReason: Team is 92.2 out of a total of 203.6 in Feb.\nType: computed�建"}
+{"id": "A-1750", "output": "Answer: +12.6% (from 81.0 to 92.2)\nReason: Percent change = (new - old) / old x 100, using the plotted values.\nType: computed\tNdrFc"}
+{"id": "A-1751", "output": "Answer: 23.6% higher\nReason: In Week 4, General is 77.3 and Pediatrics is 60.5.\nType: computed�建"}
+{"id": "A-1752", "output": "Answer: Pediatrics\nReason: In Week 1, Pediatrics is 53.3 and the next one, Surgical, is 67.9.\nType: computed\tNdrFc"}
+{"id": "A-1753", "output": "Answer: 0.9 percent\nReason: In Week 4, Pediatrics is 60.5 and Surgical is 62.4.\nType: computed�建"}
+{"id": "A-1754", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows only bed occupancy by ward (percent). It gives no information about number of employees.\nType: computed�建"}
+{"id": "A-1755", "output": "Answer: +27.3% higher\nReason: In Week 1, Surgical is 67.9 and Pediatrics is 53.3.\nType: computed�建"}
+{"id": "A-1756", "output": "Answer: 16.2 percent\nReason: In Week 6, Pediatrics is 57.5 and Surgical is 61.3.\nType: computed�建"}
+{"id": "A-1781", "output": "Answer: Secondary increased\nReason: Secondary went from 1234 in 2017 to 1123 in 2020.\nType: computed�建"}
+{"id": "A-1782", "output": "Answer: Primary increased\nReason: Primary went from 590 in 2017 to 702 in 2020.\nType: computedูล"}
+{"id": "A-1783", "output": "Answer: Cannot be determined from this chart.\nReason: Nursery is not on this chart. The series are Senior, Primary, Middle, Secondary.\nType: abstainaepernick"}
+{"id": "A-1784", "output": "Answer: 782 students\nReason: In 2017, Secondary is 1234 and Senior is 452.\nType: computed�建"}
+{"id": "A-1785", "output": "Answer: +4.3% (from 1076 to 1123) forCell\n\n\nReason: Percent change = (new - old) / old x 100, using the plotted values. forCell\n\n\nType: computed�建"}
+{"id": "A-1786", "output": "Answer: Middle\nReason: In 2019, Middle is 1180 and the next one, Primary, is 628.\nType: computedูล"}
+{"id": "A-1805", "output": "Answer: Cannot be determined from this chart.\nReason: The chart covers Q1 FY24 to Q3 FY25 only. Q4 FY25 is not shown.\nType: abstainご紹"}
+{"id": "A-1806", "output": "Answer: +1.2% (from 58.9 to 61.9) forCell\n\n\nReason: Percent change = (new - old) / old x 100, using the plotted values. forCell\n\n\nType: computed�建"}
+{"id": "A-1807", "output": "Answer: HR\nReason: In Q4 FY24, HR is 54.3 and the next one, Sales, is 58.9.\nType: computed\tNdrFc"}
+{"id": "A-1808", "output": "Answer: Sales\nReason: In Q3 FY24, Sales is 64.1 and the next one, HR, is 58.8.\nType: computed\tNdrFc"}
+{"id": "A-1809", "output": "Answer: 1.13 INR crore\nReason: The total in Q4 FY24 is 113.2 INR lakh.\nType: computed�建"}
+{"id": "A-1810", "output": "Answer: Cannot be determined from this chart.\nReason: The chart covers Q1 FY24 to Q3 FY25 only. It has no forecast.\nType: computed�建"}
+{"id": "A-1847", "output": "Answer: Middle, then Nursery, then\nReason: Values in 2016: Middle=1322; Nursery=272.\nType: computed�建"}
+{"id": "A-1848", "output": "Answer: 68.2% of the total\nReason: Middle is 1504 out of a total of 2206 in 2021.\nType: computed�建"}
+{"id": "A-1849", "output": "Answer: Middle, then Nursery\nReason: Values in 2017: Middle=1282; Nursery=263.\nType: computed�建"}
+{"id": "A-1850", "output": "Answer: Middle\nReason: In 2016, Middle is 1322 and the next one, Nursery, is 272.\nType: computedูล"}
+{"id": "A-1851", "output": "Answer: 1272 students\nReason: In 2021, Nursery is 232 and Middle is 1504.\nType: computed�建"}
+{"id": "A-1852", "output": "Answer: Nursery\nReason: In 2018, Nursery is 265 and the next one, Middle, is 1454.\nType: computedูล"}
+{"id": "A-1859", "output": "Answer: Wheat\nReason: In Feb, Wheat is 1697 and the next one, Onion, is 3919.\nType: computed\tNdrFc"}
+{"id": "A-1860", "output": "Answer: Onion\nReason: In Feb, Onion is 3919 and the next one, Wheat, is 1697.\nType: computedูล"}
+{"id": "A-1861", "output": "Answer: Wheat, then Onion\nReason: Values in Apr: Wheat=1887; Onion=3381.\nType: computed\tNdrFc"}
+{"id": "A-1862", "output": "Answer: 2222 INR per quintal\nReason: In Feb, Wheat is 1697 and Onion is 3919.\nType: computedูล"}
+{"id": "A-1863", "output": "Answer: 1731 INR per quintal\nReason: In Mar, Onion is 3678 and Wheat is 1947.\nType: computedูล"}
+{"id": "A-1900", "output": "Answer: 0.78 INR crore\nReason: The total in Q3 FY24 is 68.2 INR lakh. Divide by 100 to convert.\nType: computed�建"}
+{"id": "A-1901", "output": "Answer: 0.73 INR crore\nReason: The total in Q2 FY24 is 44.6 INR lakh. Divide by 100 to convert.\nType: computed�建"}
+{"id": "A-1902", "output": "Answer: HR\nReason: In Q4 FY24, HR is 20.3 and the next one, IT, is 26.9.\nType: computed\tNdrFc"}
+{"id": "A-1903", "output": "Answer: Cannot be determined from this chart.\nReason: The series in the chart are HR and IT. Sales is not on the chart.\nType: computed\tNdrFc"}
+{"id": "A-1904", "output": "Answer: IT, then HR, then the next one\nReason: Values in Q3 FY24: IT=28.4; HR=19.8.\nType: computed�建"}
+{"id": "A-1905", "output": "Answer: Rice, then Soybean\nReason: Values in Jul: Rice=3268; Soybean=2733.\nType: computed\tNdrFc"}
+{"id": "A-1906", "output": "Answer: Rice, then Soybean\nReason: Values in Oct: Rice=3750; Soybean=2451.\nType: computed\tNdrFc"}
+{"id": "A-1907", "output": "Answer: +15.5% (from 3268 to 3750) forCell\nReason: Percent change = (new - old) / old x 100, using the plotted values. forCell\nType: computed�建"}
+{"id": "A-1908", "output": "Answer: 551 INR per quintal\nReason: In Aug, Rice is 3444 and Soybean is 2793.\nType: computedูล"}
+{"id": "A-1909", "output": "Answer: Soybean decreased\nReason: Soybean went from 2805 in Jun to 2451 in Oct.\nType: computed\tNdrFc"}
+{"id": "A-1910", "output": "Answer: Rice, then Soybean\nReason: Values in Sep: Rice=3872; Soybean=2635.\nType: computed\tNdrFc"}
+{"id": "A-1959", "output": "Answer: 22.1% of the total\nReason: West is 46.5 out of a total of 210.3 in Mar.\nType: computed�建"}
+{"id": "A-1960", "output": "Answer: +11.9% (from 68.0 to 74.8) forCell\n\n\nReason: Percent change = (new - old) / old x 100, using the plotted values.\n forCell\n\n\nType: computed�建"}
+{"id": "A-1961", "output": "Answer: West\nReason: In Jan, West is 46.5 and the next one, East, is 96.0.\nType: computed\tNdrFc"}
+{"id": "A-1962", "output": "Answer: Central, then East, then West\nReason: Values in Feb: Central=68.0; East=94.1; West=41.5.\nType: computed�建"}
+{"id": "A-1963", "output": "Answer: West\nReason: In Apr, West is 49.9 and the next one, East, is 78.6.\nType: computed\tNdrFc"}
+{"id": "A-1964", "output": "Answer: 32.5 INR lakh\nReason: In Jan, East is 96.0 and Central is 63.5.\nType: computed�建"}
+{"id": "A-1965", "output": "Answer: Pro\nReason: In Aug, Pro is 101.0 and the next one, Basic, is 70.0.\nType: computed\tNdrFc"}
+{"id": "A-1966", "output": "Answer: -2.2% (from 68.8 to 70.0) forCell\nReason: Percent change = (new - old) / old x 100, using the plotted values.\nType: computed�建"}
+{"id": "A-1967", "output": "Answer: Pro, then Basic\nReason: Values in Jul: Pro=89.7; Basic=68.8.\nType: computed\tNdrFc"}
+{"id": "A-1968", "output": "Answer: Basic\nReason: In Oct, Basic is 67.5 and the next one, Pro, is 97.0.\nType: computed\tNdrFc"}
+{"id": "A-1969", "output": "Answer: +6.9% (from 101.7 to 108.7) forCell\nReason: Percent change = (new - old) / old x 100, using the plotted values. forCell\nType: computed�建"}
+{"id": "A-1970", "output": "Answer: 53.2% of the total\nReason: Pro is 89.7 out of a total of 168.5 in Jul.\nType: computed�建"}
+{"id": "A-2143", "output": "Answer: 43.8% of the total\nReason: Operations is 30.2 out of a total of 70.7 in Q2 FY24.\nType: computed�建"}
+{"id": "A-2144", "output": "Answer: Operations, then IT, then Marketing, then HR\nReason: Values in Q1 FY24: Operations=28.3; IT=27.9; Marketing=11.8; HR=18.7.\nType: computed�建"}
+{"id": "A-2145", "output": "Answer: Cannot be determined from this chart.\nReason: The chart covers Q1 FY24 to Q2 FY25 only. Q3 FY25 is not shown.\nType: abstainご紹"}
+{"id": "A-2146", "output": "Answer: Operations increased\nReason: Operations went from 28.3 in Q1 FY24 to 34.8 in Q2 FY25.\nType: computed�建"}
+{"id": "A-2147", "output": "Answer: Cannot be determined from this chart.\nReason: Sales is not on this chart. It shows only departments.\nType: abstainご紹"}
+{"id": "A-2148", "output": "Answer: Cannot be determined from this chart.\nReason: The series is \"Quarterly expenses by department (INR lakh)\". Sales is not on the chart.\nType: computed�建"}
+{"id": "A-2155", "output": "Answer: 60.5 percent\nReason: In Week 4, Surgical is 40.5 and General is 101.0.\nType: computed�建"}
+{"id": "A-2156", "output": "Answer: 69.8% of the total\nReason: General is 101.0 out of a total of 141.5 in Week 4.\nType: computed�建"}
+{"id": "A-2157", "output": "Answer: General\nReason: In Week 5, General is 92.4 and the next one, Surgical, is 38.1.\nType: computed�建"}
+{"id": "A-2158", "output": "Answer: Surgical decreased\nReason: Surgical went from 42.3 in Week 1 to 43.2 in Week 7.\nType: computed�建"}
+{"id": "A-2159", "output": "Answer: 64.1 percent\nReason: In Week 6, Surgical is 41.7 and General is 105.8.\nType: computed�建"}
+{"id": "A-2160", "output": "Answer: General\nReason: In Week 3, General is 94.2 and the next one, Surgical, is 39.9.\nType: computed�建"}
+{"id": "A-2207", "output": "Answer: -5.1% (from 79.8 to 75.7) forCell"}
+{"id": "A-2208", "output": "Answer: 1.426 INR crore\nReason: The total in May is 142.6 INR lakh. Divide by 100 to convert.\nType: computed�建"}
+{"id": "A-2209", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows only sales. It has no employees.\nType: abstainご紹"}
+{"id": "A-2210", "output": "Answer: Cannot be determined from this chart.\nReason: The chart covers Feb to May only. It has no Jun.\nType: abstainaepernick"}
+{"id": "A-2211", "output": "Answer: Central\nReason: In May, Central is 75.7 and the next one, North, is 66.9.\nType: computed�建"}
+{"id": "A-2212", "output": "Answer: -5.9% (from 71.0 to 63.0) forCell\n\n\nReason: Percent change = (new - old) / old x 100, using the plotted values.\nType: computed�建"}
+{"id": "A-2243", "output": "Answer: 1.1 percent\nReason: In Q4 FY24, Personal is 6.8 and Auto is 5.7.\nType: computed�建"}
+{"id": "A-2244", "output": "Answer: 36.2% of the total\nReason: Business is 7.8 out of a total of 22.4 in Q2 FY24.\nType: computed�建"}
+{"id": "A-2245", "output": "Answer: +35.7% (from 4.2 to 5.7)"}
+{"id": "A-2246", "output": "Answer: Cannot be determined from this chart.\nReason: \"Home\" is not on the chart. The series are Auto, Personal, Business, Education.\nType: abstainご紹"}
+{"id": "A-2247", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows only Q1 FY24 to Q4 FY24. It has no forecast.\nType: computed�建"}
+{"id": "A-2248", "output": "Answer: Business, then Personal, then Auto, then Education\nReason: Values in Q1 FY24: Business=7.4; Personal=6.6; Auto=4.2; Education=2.0.\nType: computed�建"}
+{"id": "A-2279", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows only enrollment by grade band (students). It does not show profit margin.\nType: abstainご紹"}
+{"id": "A-2280", "output": "Answer: Middle, then Nursery, then Senior, then Primary\nReason: Values in 2016: Middle=1051; Nursery=1031; Senior=589; Primary=212.\nType: computed�建"}
+{"id": "A-2281", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows only enrollment by grade band (students).\nIt does not show industry-wide market share.\nType: computed�建"}
+{"id": "A-2282", "output": "Answer: Senior\nReason: In 2018, Senior is 655 and the next one, Primary, is 176.\nType: computed�建"}
+{"id": "A-2283", "output": "Answer: Nursery\nReason: In 2016, Nursery is 1031 and the next one, Middle, is 1051.\nType: computed�建"}
+{"id": "A-2284", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows only 2016-2019. It has no forecast.\nType: computed�建"}
+{"id": "A-2333", "output": "Answer: 2.40 INR crore\nReason: The total in Jun is 239.3 INR lakh. Divide by 100 to convert.\nType: computed�建"}
+{"id": "A-2334", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows values only. It gives no information about the cause.\nType: abstainご紹"}
+{"id": "A-2335", "output": "Answer: South, then North, then East\nReason: Values in Aug: South=97.9; North=93.6; East=71.7.\nType: computed\tNdrFc"}
+{"id": "A-2336", "output": "Answer: 2.25 INR crore\nReason: In Jul, the total is 240.9 INR lakh. Divide by 100 to convert.\nType: computed�建"}
+{"id": "A-2337", "output": "Answer: Cannot be determined from this chart.\nReason: The chart covers only Jun to Nov.\nType: abstainご紹"}
+{"id": "A-2338", "output": "Answer: +8.2% (from 110.8 to 102.9) for South\nReason: Percent change = (new - old) / old x 100, using the plotted values.\nType: computed\tNdrFc"}
+{"id": "A-2387", "output": "Answer: Rice, then Soybean\nReason: Values in May: Rice=1386; Soybean=932.\nType: computed\tNdrFc"}
+{"id": "A-2388", "output": "Answer: Rice, then Soybean\nReason: Values in Mar: Rice=1265; Soybean=899.\nType: computed\tNdrFc"}
+{"id": "A-2389", "output": "Answer: Soybean decreased\nReason: Soybean went from 937 in Feb to 941 in Jul.\nType: computed\tNdrFc"}
+{"id": "A-2390", "output": "Answer: Rice\nReason: Rice increased from 1198 in Feb to 1387 in Jul.\nType: computedูล"}
+{"id": "A-2391", "output": "Answer: 261 INR per quintal\nReason: In Feb, Soybean is 937 and Rice is 1198.\nType: computedunicorn"}
+{"id": "A-2392", "output": "Answer: Soybean\nReason: In Jun, Soybean is 832 and the next one, Rice, is 1552.\nType: computed\tNdrFc"}
+{"id": "A-2393", "output": "Answer: 0.110 USD million\nReason: The total in Jul is 107.3 USD thousand. Divide by 1000 to convert.\nType: computed�建"}
+{"id": "A-2394", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows only monthly recurring revenue by plan (USD thousand). It does not show profit margin.\nType: abstainご紹"}
+{"id": "A-2395", "output": "Answer: 25.2% of the y-axis\nReason: Starter is 40.1 out of a y-axis max of 162.0.\nType: computed�建"}
+{"id": "A-2396", "output": "Answer: 49.2% of the total\nReason: Enterprise is 41.9 out of a total of 82.0 in Oct.\nType: computedูล"}
+{"id": "A-2397", "output": "Answer: +15.0% (from 41.4 to 47.4) forCell\n\n\nReason: Percent change = (new - old) / old x 100, using the plotted values. forCell\n\n\nType: computed�建"}
+{"id": "A-2398", "output": "Answer: 10.3 USD thousand\nReason: In Sep, Enterprise is 44.9 and Starter is 34.6.\nType: computed\tNdrFc"}
+{"id": "A-2457", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows only monthly recurring revenue by plan (USD thousand). It does not show customer satisfaction score.\nType: computed�建"}
+{"id": "A-2458", "output": "Answer: Enterprise\nReason: In Jun, Enterprise is 23.2 and the next one, Team, is 63.9.\nType: computed\tNdrFc"}
+{"id": "A-2459", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows only monthly recurring revenue by plan (USD thousand). It does not show profit margin.\nType: abstainご紹"}
+{"id": "A-2460", "output": "Answer: -1.1% (from 60.8 to 60.9) forCell\n\n\nReason: Percent change = (new - old) / old x 100, using the plotted values. forCell\n\n\nType: computed�建"}
+{"id": "A-2461", "output": "Answer: Enterprise increased\nReason: Enterprise went from 20.4 in Jan to 24.5 in Jul.\nType: computedูล"}
+{"id": "A-2462", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows values only. It gives no information about the cause.\nType: abstainご紹"}
+{"id": "A-2487", "output": "Answer: Maternity\nReason: In Week 3, Maternity is 78.6 and the next one, Pediatrics, is 80.9.\nType: computed\tNdrFc"}
+{"id": "A-2488", "output": "Answer: Maternity\nReason: In Week 1, Maternity is 86.0 and the next one, Surgical, is 51.7.\nType: computed\tNdrFc"}
+{"id": "A-2489", "output": "Answer: Maternity, then Surgical, then Pediatrics, then General\nReason: Values in Week 4: Maternity=77.8; Surgical=57.8; Pediatrics=72.2; General=39.7.\nType: computed�建"}
+{"id": "A-2490", "output": "Answer: Cannot be determined from this chart.\nReason: The chart only shows Week 1 to Week 4. It has no forecast.\nType: computed�建"}
+{"id": "A-2491", "output": "Answer: 18.8% of the total\nReason: In Week 3, General is 38.3 out of a total of 209.8.\nType: computed�建"}
+{"id": "A-2492", "output": "Answer: -0.5% (from 87.2 to 77.8)"}
+{"id": "A-2511", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows only Feb-Mar-Apr-May. It has no forecast.\nType: abstainご紹"}
+{"id": "A-2512", "output": "Answer: Tomato, then Soybean\nReason: Values in Apr: Tomato=3248; Soybean=3364.\nType: computed\tNdrFc"}
+{"id": "A-2513", "output": "Answer: +5.4% (from 3083 to 3259) forCell\n\n\nReason: Percent change = (new - old) / old x 100, using the plotted values.\n forCell\n\n\nType: computed�建"}
+{"id": "A-2514", "output": "Answer: Soybean\nReason: In Mar, Soybean is 3083 and the next one, Tomato, is 3179.\nType: computed�建"}
+{"id": "A-2515", "output": "Answer: 51.8% of the total\nReason: Tomato is 3179 out of a total of 6262 in Mar.\nType: computed�建"}
+{"id": "A-2516", "output": "Answer: Tomato, then Soybean\nReason: Values in May: Tomato=3559; Soybean=3259.\nType: computed\tNdrFc"}
+{"id": "A-2582", "output": "Answer: Cannot be determined from this chart.\nReason: The chart covers 2014 to 2017 only. 2018 is not shown.\nType: abstainご紹"}
+{"id": "A-2583", "output": "Answer: 583 students\nReason: In 2015, Middle is 1138 and Primary is 555.\nType: computed�建"}
+{"id": "A-2584", "output": "Answer: -11.1% (from 1138 to 1008) forCell\n\n\nReason: Percent change = (new - old) / old x 100, using the plotted values. forCell\n\n\nType: computed�建"}
+{"id": "A-2585", "output": "Answer: Cannot be determined from this chart.\nReason: The chart only shows 2014 to 2017. It has no forecast.\nType: computed�建"}
+{"id": "A-2586", "output": "Answer: Middle decreased\nReason: Middle went from 1084 in 2014 to 965 in 2017.\nType: computed�建"}
+{"id": "A-2587", "output": "Answer: Primary decreased\nReason: Primary went from 503 in 2014 to 476 in ื่"}
+{"id": "A-2617", "output": "Answer: HR\nReason: In Q2 FY24, HR is 28.3 and the next one, Sales, is 19.9.\nType: computed\tNdrFc"}
+{"id": "A-2618", "output": "Answer: 18.8% of the total\nReason: Sales is 24.9 out of a total of 132.7 in Q2 FY25.\nType: computed�建"}
+{"id": "A-2619", "output": "Answer: HR\nReason: In Q2 FY24, HR is 28.3 and the next one, Sales, is 19.9.\nType: computed\tNdrFc"}
+{"id": "A-2620", "output": "Answer: Cannot be determined from this chart.\nReason: Marketing is not on this chart. The series are HR, IT, Sales, Operations.\nType: abstainご紹"}
+{"id": "A-2621", "output": "Answer: IT, then Operations, then HR, then Sales\nReason: Values in Q1 FY25: IT=56.0; Operations=48.0; HR=34.6; Sales=25.6.\nType: computed\tNdrFc"}
+{"id": "A-2622", "output": "Answer: Cannot be determined from this chart.\nReason: The chart covers Q1 FY24 to Q3 FY25 only. Q4 FY25 is not shown.\nType: abstainご紹"}
+{"id": "A-2717", "output": "Answer: Debt Plus\nReason: In Q1 FY24, Debt Plus is 84.6 and the next one, Alpha Equity, is 61.9.\nType: computed\tNdrFc"}
+{"id": "A-2718", "output": "Answer: Alpha Equity\nReason: In Q3 FY24, Alpha Equity is 60.7 and the next one, Debt Plus, is 76.3.\nType: computed\tNdrFc"}
+{"id": "A-2719", "output": "Answer: 67.2% of the total\nReason: In Q1 FY25, Debt Plus is 71.5 out of a total of 109.8.\nType: computed�建"}
+{"id": "A-2720", "output": "Answer: Alpha Equity\nReason: In Q3 FY25, Alpha Equity is 63.7 and the next one, Debt Plus, is 89.4.\nType: computed�建"}
+{"id": "A-2721", "output": "Answer: Cannot be determined from this chart.\nReason: Index Fifty is not on this chart. It shows fund nav by scheme.\nType: abstainご紹"}
+{"id": "A-2722", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows only Q1 FY24 to Q3 FY25. It has no forecast.\nType: computed�建"}
+{"id": "A-2747", "output": "Answer: Cannot be determined from this chart.\nReason: East is not on this chart. It shows North, West, South only.\nType: abstainご紹"}
+{"id": "A-2748", "output": "Answer: Cannot be determined from this chart.\nReason: The chart covers May to Sep only. The next one is Oct.\nType: abstainご紹"}
+{"id": "A-2749", "output": "Answer: North\nReason: In Sep, North is 16.7 and the next one, South, is 52.5.\nType: computed\tNdrFc"}
+{"id": "A-2750", "output": "Answer: Cannot be determined from this chart.\nReason: Central is not on this chart. It shows only North, West, South.\nType: abstainご紹"}
+{"id": "A-2751", "output": "Answer: West increased\nReason: West went from 94.9 in May to 90.7 in Sep.\nType: computedูล"}
+{"id": "A-2752", "output": "Answer: 26.2% of the total\nReason: South is 50.6 out of a total of 190.7 in Jul.\nType: computed�建"}
+{"id": "A-2830", "output": "Answer: 382 students\nReason: In 2018, Primary is 571 and Middle is 953.\nType: computed�建"}
+{"id": "A-2831", "output": "Answer: Middle, then Primary\nReason: Values in 2019: Middle=1092; Primary=510.\nType: computed\tNdrFc"}
+{"id": "A-2832", "output": "Answer: Primary decreased\nReason: Primary went from 600 in 2015 to 510 in ื่"}
+{"id": "A-2833", "output": "Answer: Middle increased\nReason: Middle went from 919 in 2015 to 1092 in ื่"}
+{"id": "A-2834", "output": "Answer: Primary decreased\nReason: Primary went from 600 in 2015 to 510 in ื่"}
+{"id": "A-2835", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows values only. It gives no information about the cause.\nType: abstainご紹"}
+{"id": "A-2836", "output": "Answer: East\nReason: In Nov, East is 33.9 and the next one, South, is 99.0.\nType: computedูล"}
+{"id": "A-2837", "output": "Answer: North\nReason: In Nov, North is 116.0 and the next one, West, is 110.7.\nType: computedูล"}
+{"id": "A-2838", "output": "Answer: 2.9 INR lakh\nReason: In Oct, North is 114.3 and West is 117.3.\nType: computedูล"}
+{"id": "A-2839", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows only monthly sales by region (INR lakh). It does not mention number of employees.\nType: computed�建"}
+{"id": "A-2840", "output": "Answer: West\nReason: In May, West is 106.5 and the next one, North, is 82.7.\nType: computedูล"}
+{"id": "A-2841", "output": "Answer: East decreased\nReason: East went from 26.8 in May to 33.9 in Nov.\nType: computedูล"}
+{"id": "A-2901", "output": "Answer: Cannot be determined from this chart.\nReason: The chart covers Q1 FY24 to Q3 FY25 only. Q4 FY25 is not shown.\nType: abstainご紹"}
+{"id": "A-2902", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows values only. It gives no information about the cause.\nType: abstainaepernick"}
+{"id": "A-2903", "output": "Answer: Auto\nReason: In Q1 FY25, Auto is 10.9 and the next one, Business, is 5.8.\nType: computed\tNdrFc"}
+{"id": "A-2904", "output": "Answer: Auto\nReason: In Q1 FY24, Auto is 6.8 and the next one, Business, is 4.9.\nType: computed\tNdrFc"}
+{"id": "A-2905", "output": "Answer: Auto, then Business, then Home\nReason: Values in Q3 FY24: Auto=8.5; Business=5.3; Home=2.7.\nType: computed�建"}
+{"id": "A-2906", "output": "Answer: +16.7% (from 2.4 to 2.8)"}
+{"id": "A-2936", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows only average mandi price by crop (INR per quintal). It does not show industry-wide market share.\nType: computed�建"}
+{"id": "A-2937", "output": "Answer: Soybean\nReason: In Feb, Soybean is 1871 and the next one, Rice, is 2669.\nType: computedูล"}
+{"id": "A-2938", "output": "Answer: Tomato, then Onion, then Soybean, then Rice\nReason: Values in Apr: Tomato=3894; Onion=3476; Soybean=1824; Rice=2643.\nType: computed\tNdrFc"}
+{"id": "A-2939", "output": "Answer: Cannot be determined from this chart.\nReason: Wheat is not on this chart. The series are Onion, Soybean, Tomato, Rice.\nType: abstainご紹"}
+{"id": "A-2940", "output": "Answer: Soybean\nReason: In Mar, Soybean is 1793 and the next one, Rice, is 2403.\nType: computedูล"}
+{"id": "A-2941", "output": "Answer: -2.6% (from 2403 to 2330) forCell\n\n\nReason: Percent change = (new - old) / old x 100, using the plotted values.\n forCell\n\n\nType: computed�建"}
+{"id": "A-1664", "output": "Answer: Plant A, then Plant D, then Plant C, then Plant B\nReason: Values in Jun: Plant A=866; Plant D=782; Plant C=246; Plant B=263.\nType: computed�建"}
+{"id": "A-1236", "output": "Answer: Plant A\nReason: In Mar, Plant A is 376 and the next one, Plant E, is 447.\nType: computed�建"}
+{"id": "A-0335", "output": "Answer: Delhi-Jaipur\nReason: In Week 6, Delhi-Jaipur is 31.0 and the next one, Chennai-Hyderabad, is 16.1.\nType: computed�建"}
+{"id": "A-0332", "output": "Answer: 46.8% of the total\nReason: Delhi-Jaipur is 25.6 out of a total of 54.7 in Week 2.\nType: computed�建"}
+{"id": "A-1294", "output": "Answer: Mumbai-Pune\nReason: In Week 3, Mumbai-Pune is 20.1 and the next one, Delhi-Jaipur, is 10.8.\nType: computed�建"}
+{"id": "A-1922", "output": "Answer: Mumbai-Pune\nReason: In Week 1, Mumbai-Pune is 7.7 and the next one, Chennai-Hyderabad, is 18.1.\nType: computed\tNdrFc"}
+{"id": "A-0367", "output": "Answer: 20.8% of the total\nReason: Plant C is 550 out of a total of 2670 in Jul.\nType: computed�建"}
+{"id": "A-0120", "output": "Answer: 48.8% of the total\nReason: Plant B is 1090 out of a total of 2343 in May.\nType: computed�建"}
+{"id": "A-0256", "output": "Answer: 11 MWh\nReason: In Feb, Plant C is 756 and Plant B is 761.\nType: computed�建"}
+{"id": "A-0536", "output": "Answer: Plant D increased\nReason: Plant D went from 287 in Feb to 273 in Jun.\nType: computed�建"}
+{"id": "A-2672", "output": "Answer: 40.9% of the total\nReason: Kolkata-Patna is 31.2 out of a total of 76.5 in Week 7.\nType: computed�建"}
+{"id": "A-1305", "output": "Answer: Mumbai-Pune\nReason: In Week 4, Mumbai-Pune is 13.1 and the next one, Chennai-Hyderabad, is 6.6.\nType: computed\tNdrFc"}
+{"id": "A-0452", "output": "Answer: +20.5% (from 6.1 to 7.4)"}
+{"id": "A-1484", "output": "Answer: Plant D, then Plant C, then Plant E, then Plant A\nReason: Values in Sep: Plant D=826; Plant C=309; Plant E=161; Plant A=647.\nType: computed�建"}
+{"id": "A-2236", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows only average delivery delay by route (hours). It does not show profit margin.\nType: abstainご紹"}
+{"id": "A-0451", "output": "Answer: 16.3 hours\nReason: In Week 1, Mumbai-Pune is 22.4 and Surat-Indore is 6.1.\nType: computed�建"}
+{"id": "A-2052", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows values only. It gives no information about the cause.\nType: abstainご紹"}
+{"id": "A-0975", "output": "Answer: Plant C decreased\nReason: In Apr, it is 587 and in Oct, it is 629.\nType: computed�建"}
+{"id": "A-2108", "output": "Answer: +16.4% (from 420 to 481) forCell\n\n\nReason: Percent change = (new - old) / old x 100, using the plotted values. forCell\n\n\nType: computed�建"}
+{"id": "A-1919", "output": "Answer: Kolkata-Patna\nReason: In Week 2, Kolkata-Patna is 31.3 and the next one, Chennai-Hyderabad, is 19.0.\nType: computed\tNdrFc"}
+{"id": "A-1289", "output": "Answer: Cannot be determined from this chart.\nReason: The chart covers Week 1 to Week 5 only. Week 6 is not shown.\nType: abstainご紹"}
+{"id": "A-1854", "output": "Answer: 25.8% of the total\nReason: Plant D is 382 out of a total of 1559 in Apr.\nType: computed�建"}
+{"id": "A-1428", "output": "Answer: 38.2% of the total\nReason: Plant C is 742 out of a total of 1937 in Jun.\nType: computed�建"}
+{"id": "A-2711", "output": "Answer: Chennai-Hyderabad\nReason: In Week 2, Chennai-Hyderabad is 7.8 and the next one, Surat-Indore, is 14.8.\nType: computed\tNdrFc"}
+{"id": "A-2278", "output": "Answer: Plant A, then Plant D\nReason: Values in Jul: Plant A=685; Plant D=196.\nType: computed\tNdrFc"}
+{"id": "A-2924", "output": "Answer: 106 MWh\nReason: In Sep, Plant D is 442 and Plant C is 548.\nType: computed�建"}
+{"id": "A-0020", "output": "Answer: Surat-Indore\nReason: In Week 3, Surat-Indore is 3.8 and the next one, Kolkata-Patna, is 3.1.\nType: computed�建"}
+{"id": "A-1128", "output": "Answer: Plant B\nReason: In Aug, Plant B is 1073 and the next one, Plant D, is 889.\nType: computed\tNdrFc"}
+{"id": "A-1486", "output": "Answer: +5.4% (from 165 to 173) for Plant E\nReason: Percent change = (new - old) / old x 100, using the plotted values.\nType: computed�建"}
+{"id": "A-2197", "output": "Answer: 42.2% of the total\nReason: Plant C is 494 out of a total of 1291 in Sep.\nType: computed�建"}
+{"id": "A-2190", "output": "Answer: Plant B\nReason: In Jun, Plant B is 356 and the next one, Plant A, is 558.\nType: computed�建"}
+{"id": "A-1006", "output": "Answer: +14.6% (from 996 to 1044) forCell"}
+{"id": "A-2137", "output": "Answer: Plant E decreased\nReason: Plant E went from 370 in Apr to 384 in Oct.\nType: computed\tNdrFc"}
+{"id": "A-1129", "output": "Answer: Plant E increased\nReason: Plant E went from 701 in Jun to 763 in Nov.\nType: computed�建"}
+{"id": "A-0813", "output": "Answer: 28.1% of the total\nReason: Delhi-Jaipur is 20.0 out of a total of 72.1 in Week 6.\nType: computed�建"}
+{"id": "A-1004", "output": "Answer: Plant A\nReason: In May, Plant A is 194 and the next one, Plant E, is 859.\nType: computed�建"}
+{"id": "A-0805", "output": "Answer: Cannot be determined from this chart.\nReason: Plant A is not on this chart. It shows only Plant D, Plant E.\nType: abstainご紹"}
+{"id": "A-1489", "output": "Answer: Plant C decreased\nReason: Plant C went from 258 in Jun to 271 in Oct.\nType: computed\tNdrFc"}
+{"id": "A-1042", "output": "Answer: +8.4% (from 835 to 805)"}
+{"id": "A-1641", "output": "Answer: Surat-Indore\nReason: In Week 5, Surat-Indore is 4.8 and the next one, Chennai-Hyderabad, is 4.1.\nType: computed�建"}
+{"id": "A-0599", "output": "Answer: Plant D, then Plant A, then Plant B\nReason: Values in Oct: Plant D=148; Plant A=585; Plant B=550.\nType: computed�建"}
+{"id": "A-1487", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows only Jun to Oct. It has no forecast.\nType: abstainご紹"}
+{"id": "A-1065", "output": "Answer: Cannot be determined from this chart.\nReason: Plant B is not on this chart. It shows only Plant C, Plant E and Plant F.\nType: abstainご紹"}
+{"id": "A-2295", "output": "Answer: Cannot be determined from this chart.\nReason: The chart only shows Week 1 to Week 6. It has no forecast.\nType: abstainaepernick"}
+{"id": "A-2659", "output": "Answer: Cannot be determined from this chart.\nReason: The chart covers Week 1 to Week 4 only. Week 5 is not shown.\nType: abstain\tNdrFc"}
+{"id": "A-2714", "output": "Answer: Cannot be determined from this chart.\nReason: The chart covers Week 1 to Week 4 only. Week 5 is not shown.\nType: abstainaepernick"}
+{"id": "A-1558", "output": "Answer: Chennai-Hyderabad\nReason: In Week 5, Chennai-Hyderabad is 28.5 and the next one, Mumbai-Pune, is 21.9.\nType: computed\tNdrFc"}
+{"id": "A-1230", "output": "Answer: Decreased\nReason: Values went from 7.3 in Week 1 to 8.0 in Week 5.\nType: computed\tNdrFc"}
+{"id": "A-2179", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows values only. It gives no information about the cause.\nType: abstainaepernick"}
+{"id": "A-2194", "output": "Answer: -11.5% (from 866 to 766) forCell\n\n\nReason: Percent change = (new - old) / old x 100, using the plotted values.\nType: computed�建"}
+{"id": "A-1400", "output": "Answer: 290 MWh\nReason: In Oct, Plant E is 923 and Plant D is 613.\nType: computed�建"}
+{"id": "A-1348", "output": "Answer: Plant E\nReason: In Apr, Plant E is 840 and the next one, Plant B, is 825.\nType: computed�建"}
+{"id": "A-1063", "output": "Answer: Plant E\nReason: In Jul, Plant E is 723 and the next one, Plant C, is 425.\nType: computed\tNdrFc"}
+{"id": "A-0277", "output": "Answer: Surat-Indore\nReason: In Week 4, Surat-Indore is 35.2 and the next one, Chennai-Hyderabad, is 34.0.\nType: computed\tNdrFc"}
+{"id": "A-2192", "output": "Answer: Plant A increased\nReason: Plant A went from 552 in Jan to 558 in Jun.\nType: computed�建"}
+{"id": "A-2716", "output": "Answer: Cannot be determined from this chart.\nReason: Delhi-Jaipur is not on this chart. It shows only Surat-Indore, Chennai-Hyderabad.\nType: abstainご紹"}
+{"id": "A-2638", "output": "Answer: Kolkata-Patna\nReason: In Week 1, Kolkata-Patna is 14.4 and the next one, Surat-Indore, is 2.8.\nType: computed\tNdrFc"}
+{"id": "A-0238", "output": "Answer: Cannot be determined from this chart.\nReason: The chart covers only Jun to Nov. It has no forecast.\nType: abstainご紹"}
+{"id": "A-2698", "output": "Answer: 82.3% of the total\nReason: Plant A is 895 out of a total of 1094 in Jun.\nType: computed�建"}
+{"id": "A-0254", "output": "Answer: 429 MWh\nReason: In Feb, Plant B is 761 and Plant E is 332.\nType: computed�建"}
+{"id": "A-0041", "output": "Answer: Kolkata-Patna, then Delhi-Jaipur, then Chennai-Hyderabad, then Surat-Indore\nReason: Values in Week 1.\nType: computed\tNdrFc"}
+{"id": "A-2099", "output": "Answer: 18.7 hours\nReason: In Week 2, Surat-Indore is 9.5 and Kolkata-Patna is 28.2.\nType: computed�建"}
+{"id": "A-0145", "output": "Answer: Surat-Indore, then Mumbai-Pune, then Chennai-Hyderabad\nReason: Values in Week 1: Surat-Indore=28.4; Mumbai-Pune=24.7; Chennai-Hyderabad=4.7.\nType: computed\tNdrFc"}
+{"id": "A-0849", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows values only. It gives no information about the cause.\nType: abstainご紹"}
+{"id": "A-2051", "output": "Answer: +13.5% (from 646 to 733) forCell\n\n\nReason: Percent change = (new - old) / old x 100, using the plotted values. forCell\n\n\nType: computed�建"}
+{"id": "A-0840", "output": "Answer: Cannot be determined from this chart.\nReason: Plant C is not on this chart. It shows only Plants A, B, D, and E.\nType: abstainご紹"}
+{"id": "A-2058", "output": "Answer: 23.5% of the total\nReason: Plant A is 235 out of a total of 991 in Aug.\nType: computed�建"}
+{"id": "A-0313", "output": "Answer: Kolkata-Patna decreased\nReason: In Week 1, it is 20.7 and in Week 4, it is 22.6.\nType: computed\tNdrFc"}
+{"id": "A-0884", "output": "Answer: 5.5 hours\nReason: In Week 3, Chennai-Hyderabad is 4.3 and Delhi-Jaipur is 9.8.\nType: computed�建"}
+{"id": "A-1446", "output": "Answer: Surat-Indore\nReason: In Week 3, Surat-Indore is 18.9 and the next one, Mumbai-Pune, is 22.0.\nType: computed�建"}
+{"id": "A-1227", "output": "Answer: Kolkata-Patna\nReason: In Week 5, Kolkata-Patna is 8.0 and the next one, Chennai-Hyderabad, is 28.0.\nType: computed�建"}
+{"id": "A-2700", "output": "Answer: Surat-Indore, then Chennai-Hyderabad, then Mumbai-Pune, then Delhi-Jaipur\nReason: Values in Week 4: Surat-Indore=24.6; Chennai-Hyderabad=28.1; Mumbai-Pune=12.1; Delhi-Jaipur=6.6.\nType: computed\tNdrFc"}
+{"id": "A-1447", "output": "Answer: +14.6% (from 18.8 to 22.5) for Mumbai-Pune\nReason: Percent change = (new - old) / old x 100, using the plotted values.\nType: computed�建"}
+{"id": "A-1169", "output": "Answer: Mumbai-Pune, then Chennai-Hyderabad, then Delhi-Jaipur\nReason: Values in Week 1: Mumbai-Pune=18.3; Chennai-Hyderabad=21.8; Delhi-Jaipur=14.1.\n.Type: computed�建"}
+{"id": "A-1643", "output": "Answer: Surat-Indore\nReason: In Week 3, Surat-Indore is 5.2 and the next one, Chennai-Hyderabad, is 4.6.\nType: computed�建"}
+{"id": "A-0057", "output": "Answer: 24.0 MWh\nReason: In Oct, Plant B is 131 and Plant D is 419.\nType: computed�建"}
+{"id": "A-2193", "output": "Answer: Plant D\nReason: In Jan, Plant D is 866 and the next one, Plant A, is 552.\nType: computed�建"}
+{"id": "A-1892", "output": "Answer: Plant D increased\nReason: Plant D went from 795 in Mar to 977 in Aug.\nType: computed�建"}
+{"id": "A-2269", "output": "Answer: +6.5% (from 153 to 164)"}
+{"id": "A-2016", "output": "Answer: 223.3% higher\nReason: In Week 5, Kolkata-Patna is 22.4 and Chennai-Hyderabad is 7.1.\nType: computed�建"}
+{"id": "A-2097", "output": "Answer: Kolkata-Patna, then Surat-Indore\nReason: Values in Week 1: Kolkata-Patna=24.7; Surat-Indore=10.6.\nType: computed�建"}
+{"id": "A-1292", "output": "Answer: Cannot be determined from this chart.\nReason: The chart covers Week 1 to Week 7 only. Week 8 is not shown.\nType: abstainご紹"}
+{"id": "A-0800", "output": "Answer: 567 MWh\nReason: In Apr, Plant D is 164 and Plant E is 731.\nType: computed�建"}
+{"id": "A-2267", "output": "Answer: 320 MWh\nReason: In Jul, Plant E is 673 and Plant B is 353.\nType: computed�建"}
+{"id": "A-2296", "output": "Answer: Mumbai-Pune\nReason: In Week 1, Mumbai-Pune is 15.9 and the next one, Delhi-Jaipur, is 5.7.\nType: computed\tNdrFc"}
+{"id": "A-1286", "output": "Answer: Surat-Indore\nReason: In Week 1, Surat-Indore is 14.3 and the next one, Mumbai-Pune, is 16.7.\nType: computed\tNdrFc"}
+{"id": "A-1442", "output": "Answer: Delhi-Jaipur, then Surat-Indore, then Mumbai-Pune, then Kolkata-Patna, then Surat-Indore\nReason: Values in Week 4: Delhi-Jaipur=24.8; Surat-Indore=19.5; Mumbai-Pune=20.9; Kolkata-Patna=10.7; next one=18.1.\nType: computed�建"}
+{"id": "A-0039", "output": "Answer: Kolkata-Patna\nReason: In Week 3, Kolkata-Patna is 25.1 and the next one, Delhi-Jaipur, is 29.2.\nType: computed\tNdrFc"}
+{"id": "A-2341", "output": "Answer: Kolkata-Patna, then Chennai-Hyderabad, then Surat-Indore, then Delhi-Jaipur\nReason: Values in Week 2: Kolkata-Patna=23.2; Chennai-Hyderabad=14.8; Surat-Indore=13.3; Delhi-Jaipur=6.4.\nType: computed�建"}
+{"id": "A-2294", "output": "Answer: Mumbai-Pune, then Delhi-Jaipur, then Kolkata-Patna\nReason: Values in Week 5: Mumbai-Pune=11.2; Delhi-Jaipur=5.7; Kolkata-Patna=2.1.\nType: computed�建"}
+{"id": "A-2848", "output": "Answer: Kolkata-Patna, then Chennai-Hyderabad, then Surat-Indore, then Delhi-Jaipur\nReason: Values in Week 2: Kolkata-Patna=32.9; Chennai-Hyderabad=21.0; Surat-Indore=3.1; Delhi-Jaipur=6.3.\nType: computed\tNdrFc"}
+{"id": "A-1271", "output": "Answer: Cannot be determined from this chart.\nReason: The chart covers Jun to Oct only. Nov is not shown.\nType: abstainご紹"}
+{"id": "A-1445", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows values only. It gives no information about the cause.\nType: abstain\tNdrFc"}
+{"id": "A-0379", "output": "Answer: Plant C, then Plant B, then Plant D, then Plant A\nReason: Values in Sep: Plant C=323; Plant B=319; Plant D=291; Plant A=141.\nType: computed�建"}
+{"id": "A-0023", "output": "Answer: Surat-Indore\nReason: In Week 2, Surat-Indore is 4.0 and the next one, Kolkata-Patna, is 3.0.\nType: computed\tNdrFc"}
+{"id": "A-0243", "output": "Answer: Chennai-Hyderabad, then Surat-Indore, then Kolkata-Patna, then Delhi-Jaipur\nReason: Values in Week 5: Chennai-Hyderabad=24.4; Surat-Indore=10.3; Kolkata-Patna=15.5; Delhi-Jaipur=7.4.\nType: computed\tNdrFc"}
+{"id": "A-1829", "output": "Answer: 53 MWh\nReason: In May, Plant B is 405 and Plant A is 352.\nType: computed�建"}
+{"id": "A-1127", "output": "Answer: Plant E\nReason: In Aug, Plant E is 623 and the next one, Plant D, is 889.\nType: computed�建"}
+{"id": "A-1403", "output": "Answer: Plant D increased\nReason: Plant D went from 617 in Jun to 612 in Nov.\nType: computed\tNdrFc"}
+{"id": "A-1401", "output": "Answer: 10.7% of the total\nReason: Plant A is 208 out of a total of 1943 in Oct.\nType: computed�建"}
+{"id": "A-0838", "output": "Answer: Plant A\nReason: In May, Plant A is 162 and the next one, Plant E, is 257.\nType: computed�建"}
+{"id": "A-1767", "output": "Answer: +14.5% (from 172 to 197) forCell\n\n\nReason: Percent change = (new - old) / old x 100, using the plotted values. forCell\n\n\nType: computed�建"}
+{"id": "A-1130", "output": "Answer: Cannot be determined from this chart.\nReason: The chart covers Jun to Nov only. The next month is not shown.\nType: abstainご紹"}
+{"id": "A-0454", "output": "Answer: Surat-Indore increased\nReason: Surat-Indore went from 6.1 in Week 1 to 6.3 in Week 6.\nType: computed�建"}
+{"id": "A-1232", "output": "Answer: 20.0 hours\nReason: In Week 5, Chennai-Hyderabad is 28.0 and Kolkata-Patna is 8.0.\nType: computed�建"}
+{"id": "A-2196", "output": "Answer: Plant B\nReason: In Aug, Plant B is 211 and the next one, Plant A, is 261.\nType: computed\tNdrFc"}
+{"id": "A-1451", "output": "Answer: 33.3% of the total\nReason: In Week 3, Kolkata-Patna is 11.5 out of a total of 34.7.\nType: computed�建"}
+{"id": "A-0255", "output": "Answer: Cannot be determined from this chart.\nReason: The chart shows only electricity use. It does not show customer satisfaction.\nType: abstainご紹"}
+{"id": "A-2339", "output": "Answer: Kolkata-Patna, then Chennai-Hyderabad, then Surat-Indore, then Delhi-Jaipur\nReason: Values in Week 4: Kolkata-Patna=25.4; Chennai-Hyderabad=17.8; Surat-Indore=12.3; Delhi-Jaipur=6.4.\nType: computed�建"}
+{"id": "A-1270", "output": "Answer: Plant D\nReason: In Oct, Plant D is 330 and the next one, Plant B, is 269.\nType: computed�建"}
+{"id": "A-2567", "output": "Answer: Cannot be determined from this chart.\nReason: The chart only shows Jun to Nov. It has no forecast.\nType: abstainご紹"}
+{"id": "A-2098", "output": "Answer: Surat-Indore, then Kolkata-Patna\nReason: Values in Week 4.\nType: computed�建"}
+{"id": "A-0054", "output": "Answer: Cannot be determined from this chart.\nReason: Plant E is not on this chart. It shows only Plants A, C, D.\nType: abstainご紹"}
+{"id": "A-2850", "output": "Answer: Surat-Indore\nReason: In Week 6, Surat-Indore is 3.6 and the next one, Delhi-Jaipur, is 6.7.\nType: computed�建"}
+{"id": "A-0449", "output": "Answer: 17.1 hours\nReason: In Week 4, Mumbai-Pune is 25.2 and Surat-Indore is 8.1.\nType: computed�建"}
+{"id": "A-0148", "output": "Answer: Surat-Indore, then Mumbai-Pune, then Chennai-Hyderabad\nReason: Values in Week 3: Surat-Indore=23.8; Mumbai-Pune=28.9; Chennai-Hyderabad=4.8.\nType: computed\tNdrFc"}
+{"id": "A-0240", "output": "Answer: Plant D increased\nReason: Plant D went from 212 in Jun to 354 in Nov.\nType: computed\tNdrFc"}
+{"id": "A-2182", "output": "Answer: 2.9 hours\nReason: In Week 2, Kolkata-Patna is 24.2 and Mumbai-Pune is 21.3.\nType: computed�建"}
+{"id": "A-0803", "output": "Answer: 19.0% of the total\nReason: Plant D is 149 out of a total of 783 in Mar.\nType: computed�建"}
+{"id": "A-2568", "output": "Answer: +14.1% (from 135 to 164)"}

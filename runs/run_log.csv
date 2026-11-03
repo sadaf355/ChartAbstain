@@ -1,0 +1,8 @@
+run_id,data_version,base_model,seed,platform_win_rate,test_acc,hard_acc,abstain_recall,over_abstain,type_label,minutes,notes
+BASE4B_strict,none,Qwen/Qwen3-4B-Base,0,,0.043,0.033,0.0,0.0,0.1,13,"untuned, 4-bit, strict scoring"
+BASE4B_content,none,Qwen/Qwen3-4B-Base,0,,0.2,0.217,0.165,0.014,,13,"untuned, 4-bit, content-only scoring (label not required)"
+BASE9B_strict,none,Qwen/Qwen3.5-9B,0,,0.05,0.067,0.0,0.0,0.082,29,"supplementary baseline, a different model than the tuned runs"
+BASE9B_content,none,Qwen/Qwen3.5-9B,0,,0.489,0.65,0.936,0.084,,29,"supplementary baseline, content-only scoring"
+A0diff_s1,original,Qwen/Qwen3-4B-Base,1,0.86,0.647,0.583,0.991,0.0,0.9,13,original data; platform-chosen recipe r16 alpha32 4 epochs lr1e-4; platform win 86 vs 14
+A1_s1,"adapted, unaudited",Qwen/Qwen3-4B-Base,1,,0.267,0.283,0.101,0.002,0.059,,"recipe r8 alpha16 2 epochs lr5e-5; numbers copied from Colab output, preds file not yet in runs/preds"
+A2_s1,repaired,Qwen/Qwen3-4B-Base,1,0.77,0.243,0.283,0.018,0.002,0.761,,"recipe r8 alpha16 2 epochs lr5e-5; platform win 77 vs 23; numbers copied from Colab output, preds file not yet in runs/preds"

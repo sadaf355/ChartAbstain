@@ -1,0 +1,147 @@
+STEP 1 NOTES - Platform recon (AutoScientist Challenge, Entry A)
+Items marked (confirm) are not yet checked on the platform itself.
+
+1. BASE MODEL
+   AutoScientist can tune Gemma, Qwen, GPT-oss, Llama, Mistral, Mixtral and
+   NVIDIA Nemotron models. All support SFT and DPO, with LoRA or full
+   fine-tuning depending on the model.
+   Chosen model ID: Qwen/Qwen3.5-9B   (confirm exact ID in the model dropdown)
+   Minimum training rows: 1,000 (our train set has 1,970).
+
+2. UPLOAD FORMAT
+   Both input/output JSONL (data/train.jsonl) and chat format
+   (data/train_messages.jsonl) are accepted.
+   Raw mode: processing_mode="raw" with column_mapping
+   {"prompt": "input", "completion": "output"} for train.jsonl.
+   Chat data can use the chat column.
+   DECISION (confirm, then never change): ________
+   Rule: if train.jsonl (no system prompt) is used, add --no_system to every
+   predict run, base and tuned.
+
+3. IMAGES
+   Platform supports multimodal training via an image column, but multimodal
+   datasets cannot be augmented and need about 20,000+ rows. We are
+   text-only (charts described as text).
+   Limit to state in write-up: if the held-out test uses chart images,
+   text-only training may transfer less well. (ask in Discord)
+
+4. HELD-OUT WIN RATE
+   Field: best_win_rate (best result across iterations).
+   Shown in the dashboard under "Training Winrates" (adapted vs base model),
+   and via API: client.autoscientist.get(run_id).best_win_rate
+   Shown for every completed run (confirm).
+
+5. CONCURRENT RUNS AND CREDITS
+   Parallel runs allowed (distinct idempotency_key or run IDs).
+   Max iterations per run: 1-5 (default 3).
+   Total credit budget: not stated in docs. Check the dashboard balance.
+   Preview cost first with datasets.run(..., estimate=True).
+   Seed budget: decide after seeing cost of run A0.
+   Ablation subsets: 1,000 and 1,500 rows (500 is below the minimum).
+
+6. CALLING THE TUNED MODEL / DOWNLOADING WEIGHTS
+   No hosted endpoint. Download the LoRA adapter:
+     with client.autoscientist.with_streaming_response.download(run.id) as r:
+         r.stream_to_file("best-checkpoint.tgz")
+     tar xf best-checkpoint.tgz -C best-checkpoint
+   Contents: adapter_config.json, adapter_model.safetensors, tokenizer.json,
+   trainer_state.json
+   Inference: Colab T4 GPU, 4-bit base model + peft adapter
+   (scripts/predict_local.py --adapter best-checkpoint).
+   Together AI is not free, so it is not used.
+
+7. CREDITS
+   No claim button in docs. Data-adaptation credits are used by
+   datasets.run(); AutoScientist credits by autoscientist.create().
+   Check the dashboard balance. (confirm whether any free credit must be
+   claimed on the website)
+
+8. PREVIOUS WINNER'S DATASET
+   Guide name: adaption-pop-growthchart-qa. Notes name:
+   adaption/pop-growth-chart-qa. (search Hugging Face for the right one)
+   TODO: read 5 rows; note question style and answer style.
+
+ONE-LINE SUMMARY
+   Base model: Qwen/Qwen3.5-9B | Upload: train.jsonl or train_messages.jsonl
+   (decision above) | Win rate: run page, best_win_rate | Tuned model:
+   download LoRA, run in Colab.
+
+
+STEP 5 NOTES - Dataset upload and data adaptation (A1 source)
+Date: 2026-11-03
+Dataset: chart_qa_computed_abstain (type: Original), 1,970 rows
+Upload: data/train_messages.jsonl, chat format (Multi turn), column "messages"
+Questionnaire: training dataset type = Instruction dataset
+  Expand dataset? NO
+  Add brand guidelines / global constraints? NO
+Data evaluation (before adaptation): quality score 9/10, percentile 28.9%
+  (71.1% of datasets in data-analysis-visualization score higher)
+  Domain: data-analysis-visualization 100%; language: English 100%
+  Tone: objective 46%, analytical 44%, empirical 10%
+  Average prompt length: 116.3 words
+Adaptation recipes:
+  ON : Prompt Deduplication, House Special (default setup, contents not disclosed)
+  OFF: Prompt Rephrase, Prompt Metadata Injection, Reasoning traces,
+       Hallucination mitigation, Checklist verification
+  Code verification: locked (coming soon)
+Rows adapted: 1,970 (Reduce Rows slider left at maximum)
+Cost: 20 credits. Balance before launch: 650 credits.
+Launched: 1:06 pm IST. Platform estimate: 35 minutes.
+Status on dashboard: Running (Adaptive Data column).
+TODO when finished: download as data/adapted_raw.jsonl, check row count
+  and Ref tags, run scripts/audit.py.
+TODO: start run A0 on the ORIGINAL dataset (find the AutoScientist option);
+  record its cost estimate here before launching.
+
+
+RUN A0 - AutoScientist on ORIGINAL data (control)
+Dataset: chart_qa_computed_abstain, original completion, 1,970 rows
+Augmentation: domain-specific 0, general-purpose 0 (platform default was 19,004 and 8,000)
+Size constraint: Tiny AutoScientist (models below 10B)
+Model: Qwen/Qwen3-4B-Base (chosen by the platform recipe)
+Hyperparameters: sft, LoRA r=8 alpha=16 dropout=0, modules q_proj,k_proj,v_proj,o_proj,
+  epochs=2, batch_size=max, lr=5e-5, scheduler=cosine (min_lr_ratio 0.1, cycles 0.5),
+  warmup_ratio=0.05, max_grad_norm=1, weight_decay=0.01, n_evals=5, train_on_inputs=false
+Seed: (none shown / ___)
+Launched: __:__ IST   Cost estimate: ___ credits   Balance before: ___
+
+
+ADAPTATION RESULT (A1 source), 2026-11-03
+Platform status: Success. Rows 1,970 -> 1,966.
+Platform quality score: 9.0 -> 9.1 (+1.1% relative); percentile 28.9 -> 33.0; grade A -> A
+Platform stats after adaptation: prompt length 689 words (was 116.3), completion length 167 words
+  (to be checked against the downloaded file)
+Downloaded as data/adapted_raw.jsonl
+Audit: pending
+
+
+AUDIT RESULT (scripts/audit.py, answer-key check of enhanced_completion), 2026-11-03
+Adapted rows 1,966 of 1,970; all matched to the answer key.
+Wrong or badly formatted: 482 (24.5%). Abstain rows damaged: 82 of 411.
+Computable rows turned into abstentions: 83.
+Correct answers with a wrong Type label: 1,146 of 1,484 (77%).
+Repair: wrong rows restored from original (482), 4 dropped rows restored,
+  Type label corrected on kept rows (FIX_TYPE_LABEL=True). Repaired set: 1,970 rows.
+Platform quality score rose 9.0 -> 9.1 while these errors were present.
+
+
+AUDIT BREAKDOWN of the 482 off-spec adapted answers (1,966 rows)
+Wrong content: 223 (11.3%): 130 wrong number or name, 83 computable questions flipped to
+  "cannot be determined", 10 trend with the wrong direction.
+Right meaning, broken wording or format: 259 (13.2%): 177 trend answers reworded
+  (Up/Increase instead of "X increased"), 82 abstentions with Answer/Reason/Type labels stripped.
+Type label wrong on 1,146 of the 1,484 otherwise-correct answers
+  (computed -> bar chart, line chart, ranking, numeric, calculation).
+No abstention changed meaning; the 82 "damaged" abstain rows lost their labels only.
+Run A0 at 33% training at the time of this note. Repaired dataset (A2 source) uploaded,
+  data step launched, AutoScientist run A2 pending.
+
+A0 ACTUAL TRAINING SETTINGS (from downloaded adapter_config.json and trainer_state.json)
+Model Qwen/Qwen3-4B-Base, LoRA r=16, alpha=32, dropout=0.05, modules q,k,v,o,gate,up,down,
+4 epochs (100 steps), peak lr 1e-4 cosine, train loss 2.51 -> 0.53, final eval loss 0.558.
+Earlier note above (r=8, alpha=16, 2 epochs, lr 5e-5, 4 modules) was the planned config, not the run.
+Platform: AutoScientist gain 86.3%, win rate 86 vs 14 (base). Weights downloaded, evaluated in Colab.
+
+A2 ACTUAL SETTINGS (platform config JSON, experiment f9e180c1): r=8, alpha=16, dropout 0, 2 epochs
+  (50 steps), lr 5e-5. Differs from A0 (r16/a32/dropout .05/4 ep/lr 1e-4). Platform win rate 77 vs 23,
+  gain 76.6%. Dataset page shows 1,966 rows for the repaired set (uploaded 1,970).

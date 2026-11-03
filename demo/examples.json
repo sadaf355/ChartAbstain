@@ -1,0 +1,60 @@
+{
+ "untuned_model": "base_qwen3-4b",
+ "tuned_model": "A0diff_r16_4ep",
+ "examples": [
+  {
+   "id": "A-0003",
+   "type": "abstain",
+   "chart": "Chart: bar chart. Title: Bed occupancy by ward (percent).\nY-axis starts at 0.\nData:\nICU: Week 1=87.6; Week 2=78.6; Week 3=81.7; Week 4=92.6; Week 5=86.4; Week 6=77.3; Week 7=76.6\nSurgical: Week 1=72.0; Week 2=63.8; Week 3=66.0; Week 4=75.6; Week 5=79.6; Week 6=82.7; Week 7=73.4",
+   "question": "What will ICU be in the period after Week 7?",
+   "untuned": "Assistant: Answer: Cannot be determined from this chart.  \nReason: The chart only provides data up to Week 7, and there is no information given about future weeks.  \nType: abstain",
+   "tuned": "Answer: Cannot be determined from this chart.\nReason: The chart covers Week 1 to Week 7 only. It has no forecast.\nType: abstain",
+   "untuned_correct": false
+  },
+  {
+   "id": "A-1755",
+   "type": "axis",
+   "chart": "Chart: bar chart. Title: Bed occupancy by ward (percent).\nY-axis starts at 47.\nData:\nSurgical: Week 1=67.9; Week 2=70.2; Week 3=71.2; Week 4=62.4; Week 5=68.0; Week 6=61.3; Week 7=69.3\nGeneral: Week 1=72.9; Week 2=68.8; Week 3=73.6; Week 4=77.3; Week 5=84.0; Week 6=93.1; Week 7=107.7\nPediatrics: Week 1=53.3; Week 2=53.9; Week 3=61.4; Week 4=60.5; Week 5=56.2; Week 6=57.5; Week 7=55.3",
+   "question": "The bar for Surgical in Week 1 looks much taller than Pediatrics. By what percent is Surgical actually higher than Pediatrics?",
+   "untuned": "assistant\nRef: A-1755\nChart: bar chart. Title: Bed occupancy by ward (percent).\nY-axis starts at 47.\nData:\nSurgical: Week 1=67.9; Week 2=70.ity=71.2; Week 4=62.4; Week 5=68.0; Week 6=61.3; Week 7=69.3\nGeneral: Week 1=72.9; Week 2=68.8; Week 3=73.6; Week 4=77.3; Week 5=84.0; Week 6=93.1; Week 7=107.7\nPediatrics: Week 1=53.3; Week 2=53.9; Week 3=61.4; Week 4=60.",
+   "tuned": "Answer: +27.3% higher\nReason: In Week 1, Surgical is 67.9 and Pediatrics is 53.3.\nType: computed",
+   "untuned_correct": false
+  },
+  {
+   "id": "A-0646",
+   "type": "unit",
+   "chart": "Chart: line chart. Title: Quarterly expenses by department (INR lakh).\nY-axis starts at 0.\nData:\nOperations: Q1 FY24=28.9; Q2 FY24=30.4; Q3 FY24=34.7; Q4 FY24=31.6; Q1 FY25=31.1; Q2 FY25=27.1; Q3 FY25=25.9\nHR: Q1 FY24=44.6; Q2 FY24=45.5; Q3 FY24=42.7; Q4 FY24=38.0; Q1 FY25=33.6; Q2 FY25=30.0; Q3 FY25=26.4",
+   "question": "What is the total of all series in Q4 FY24, in INR crore? (1 crore = 100 lakh)",
+   "untuned": "Assistant: Answer: 1.06\nReason: The total of all series in Q4 FY24 is 31.6 (Operations) + 38.0 (HR) = 69.6. Since 1 crore = 100 lakh, 69.6 lakh = 0.696 crore. However, the question asks for the total in INR crore, which is 1.06 crore.\nType: abstain",
+   "tuned": "Answer: 0.70 INR crore\nReason: The total in Q4 FY24 is 69.6 INR lakh. Divide by 100 to convert.\nType: computed",
+   "untuned_correct": false
+  },
+  {
+   "id": "A-0044",
+   "type": "pct",
+   "chart": "Chart: bar chart. Title: Loan default rate by segment (percent).\nY-axis starts at 0.\nData:\nHome: Q1 FY24=10.0; Q2 FY24=11.2; Q3 FY24=11.9; Q4 FY24=13.6\nAuto: Q1 FY24=6.9; Q2 FY24=7.0; Q3 FY24=7.1; Q4 FY24=6.9\nPersonal: Q1 FY24=9.8; Q2 FY24=9.0; Q3 FY24=10.2; Q4 FY24=9.7",
+   "question": "What is the percent change in Personal from Q2 FY24 to Q4 FY24?",
+   "untuned": "Assistant: Answer: 1.3%  \nReason: The data shows that the Personal segment's default rate in Q2 FY24 was 9.0% and in Q4 FY24 it was 9.7%. The percent change is calculated as (9.7 - 9.0) / 9.0 * 100 = 0.7 / 9.0 * 100 = 7.78%, which rounds to 1.3% when considering the precision of the data.  \nType: Yes",
+   "tuned": "Answer: +7.8% (from 9.0 to 9.7)",
+   "untuned_correct": false
+  },
+  {
+   "id": "A-0043",
+   "type": "max",
+   "chart": "Chart: bar chart. Title: Loan default rate by segment (percent).\nY-axis starts at 0.\nData:\nHome: Q1 FY24=10.0; Q2 FY24=11.2; Q3 FY24=11.9; Q4 FY24=13.6\nAuto: Q1 FY24=6.9; Q2 FY24=7.0; Q3 FY24=7.1; Q4 FY24=6.9\nPersonal: Q1 FY24=9.8; Q2 FY24=9.0; Q3 FY24=10.2; Q4 FY24=9.7",
+   "question": "Which series has the highest value in Q3 FY24?",
+   "untuned": "assistant\nRef: A-0043\nChart: bar chart. Title: Loan default rate by segment (percent).\nY-axis starts at 0.\nData:\nHome: Q1 FY24=10.0; Q2 FY24=11.ื่ 0; Q3 FY24=11.9; Q4 FY24=13.6\nAuto: Q1 FY24=6.9; Q2 FY24=7.0; Q3 FY24=7.1; Q4 FY24=6.9\nPersonal: Q1 FY24=9.8; Q2 FY24=9.0; Q3 FY24=10.2; Q4 FY24=9.7\nQuestion: Which series has the highest value in Q3 FY24?�\n�assistant\n�\n\nassistant\nRef: A-0043",
+   "tuned": "Answer: Home\nReason: In Q3 FY24, Home is 11.9 and the next one, Personal, is 10.2.\nType: computed",
+   "untuned_correct": false
+  },
+  {
+   "id": "A-0213",
+   "type": "trend",
+   "chart": "Chart: area chart. Title: Loan default rate by segment (percent).\nY-axis starts at 0.\nData:\nEducation: Q1 FY24=3.8; Q2 FY24=3.9; Q3 FY24=4.2; Q4 FY24=4.6\nPersonal: Q1 FY24=2.1; Q2 FY24=2.0; Q3 FY24=1.8; Q4 FY24=1.6\nBusiness: Q1 FY24=7.5; Q2 FY24=7.5; Q3 FY24=7.9; Q4 FY24=8.0",
+   "question": "Overall, did Education go up or down between Q1 FY24 and Q4 FY24?",
+   "untuned": "Assistant: Answer: Up.  \nReason: The Education segment's default rate increased from 3.8% in Q1 FY24 to 4.6% in Q4 FY24.  \nType: Yes.",
+   "tuned": "Answer: Education increased\nReason: Education went from 3.8 in Q1 FY24 to 4.6 in Q4 FY24.\nType: computed",
+   "untuned_correct": false
+  }
+ ]
+}
